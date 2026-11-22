@@ -1,0 +1,19 @@
+.sync/
+.stfolder/
+graphify-out/
+scripts/logs/
+
+# secretos y datos personales
+00_Meta/API.md
+.obsidian/plugins/obsidian-local-rest-api/data.json
+**/Neozeler*
+**/Setter NeoZeler*
+
+# archivos pesados (auto-push)
+*.zip
+
+# carpeta compartida con el CEO (Syncthing; no subir a GitHub)
+Compartido/
+
+# datos del vault (vectordb, etc.)
+.vectordb-*/

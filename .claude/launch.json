@@ -1,0 +1,212 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "neozeler-mundo",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "/home/haytham/Proyectos/neozeler-mundo",
+        "run",
+        "dev",
+        "--",
+        "--port",
+        "5174",
+        "--strictPort"
+      ],
+      "port": 5174
+    },
+    {
+      "name": "dashboard-command-ai",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "/home/haytham/Proyectos/dashboard-command-ai",
+        "start"
+      ],
+      "port": 4200
+    },
+    {
+      "name": "vault-os",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "/home/haytham/Proyectos/vault-os/server/index.mjs"
+      ],
+      "port": 8790
+    },
+    {
+      "name": "crm",
+      "runtimeExecutable": "/home/haytham/Proyectos/minicrm-go/bin/crm",
+      "runtimeArgs": [
+        "serve",
+        "-port",
+        "8080",
+        "-db",
+        "/home/haytham/Proyectos/minicrm-go/data/crm.db",
+        "-templates",
+        "/home/haytham/Proyectos/minicrm-go/templates"
+      ],
+      "port": 8080
+    },
+    {
+      "name": "setter-resumen",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8766",
+        "--directory",
+        "/home/haytham/Proyectos/setter-neozeler"
+      ],
+      "port": 8766
+    },
+    {
+      "name": "neoflow-pitch",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8765",
+        "--directory",
+        "/home/haytham/Proyectos/neoflow-pitch"
+      ],
+      "port": 8765
+    },
+    {
+      "name": "crm-web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "/home/haytham/Proyectos/minicrm-go/web",
+        "run",
+        "dev",
+        "--",
+        "--strictPort"
+      ],
+      "port": 5175
+    },
+    {
+      "name": "neozeler-web",
+      "runtimeExecutable": "/home/haytham/.local/share/fnm/node-versions/v22.23.3/installation/bin/node",
+      "runtimeArgs": [
+        "/home/haytham/Proyectos/neozeler-web/node_modules/next/dist/bin/next",
+        "dev",
+        "/home/haytham/Proyectos/neozeler-web",
+        "--port",
+        "3100"
+      ],
+      "port": 3100
+    },
+    {
+      "name": "benimar-495",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd /home/haytham/Proyectos/benimar-495 && PATH=/home/haytham/.local/share/fnm/node-versions/v22.23.3/installation/bin:$PATH exec npx next dev --port 3100"
+      ],
+      "port": 3100
+    },
+    {
+      "name": "caravandream-c",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd /home/haytham/Proyectos/caravandream-c && PATH=/home/haytham/.local/share/fnm/node-versions/v22.23.3/installation/bin:$PATH exec npx next dev --port 3101"
+      ],
+      "port": 3101
+    },
+    {
+      "name": "panel-de-leads",
+      "runtimeExecutable": "env",
+      "runtimeArgs": [
+        "PATH=/home/haytham/.local/share/fnm/node-versions/v22.23.3/installation/bin",
+        "/home/haytham/.local/share/fnm/node-versions/v22.23.3/installation/bin/node",
+        "/home/haytham/Proyectos/panel-de-leads/node_modules/next/dist/bin/next",
+        "dev",
+        "/home/haytham/Proyectos/panel-de-leads",
+        "-p",
+        "3180",
+        "--webpack"
+      ],
+      "port": 3180
+    },
+    {
+      "name": "neozeler-web-skala",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd /home/haytham/Proyectos/neozeler-web-skala && PATH=$HOME/.local/share/fnm/node-versions/v22.23.3/installation/bin:$PATH npx vite --port 5199 --host 127.0.0.1"
+      ],
+      "port": 5199
+    },
+    {
+      "name": "mp3-api",
+      "runtimeExecutable": "env",
+      "runtimeArgs": [
+        "CLAVE=clave-local-123",
+        "ESCUCHAR=127.0.0.1:8799",
+        "ORIGEN_WEB=http://localhost:3100,http://127.0.0.1:3100",
+        "/home/haytham/Proyectos/conversor-mp3-facil/api/conversor-api"
+      ],
+      "port": 8799
+    },
+    {
+      "name": "arm-web",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd /home/haytham/Proyectos/arm/web && PATH=$HOME/.local/share/fnm/node-versions/v22.23.3/installation/bin:$PATH exec npx vite --host 127.0.0.1 --port 5173 --strictPort"
+      ],
+      "port": 5173
+    },
+    {
+      "name": "mp3-web",
+      "runtimeExecutable": "env",
+      "runtimeArgs": [
+        "PATH=/home/haytham/.local/share/fnm/node-versions/v22.23.3/installation/bin:/usr/bin:/bin",
+        "npm",
+        "--prefix",
+        "/home/haytham/Proyectos/conversor-mp3-facil/web",
+        "run",
+        "dev",
+        "--",
+        "--webpack",
+        "--port",
+        "3100"
+      ],
+      "port": 3100
+    },
+    {
+      "name": "reto-30",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd ~/Proyectos/reto-30 && export PATH=$(ls -d ~/.local/share/fnm/node-versions/v22*/installation/bin | head -1):$PATH && exec npx next dev -p 3190"
+      ],
+      "port": 3190
+    },
+    {
+      "name": "ingecons-facturas",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "export PATH=$(ls -d ~/.local/share/fnm/node-versions/v22*/installation/bin | head -1):$PATH; cd ~/Proyectos/ingecons-facturas && npx next dev -p 3100"
+      ],
+      "port": 3100
+    },
+    {
+      "name": "setter-dashboard",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "/home/haytham/Proyectos/setter-dashboard",
+        "run",
+        "dev",
+        "--",
+        "-p",
+        "3300"
+      ],
+      "port": 3300
+    }
+  ]
+}

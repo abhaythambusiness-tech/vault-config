@@ -1,0 +1,41 @@
+{
+  "mcpServers": {
+    "graphify": {
+      "command": "${HOME}/.local/bin/graphify-mcp",
+      "args": [
+        "graphify-out/graph.json"
+      ]
+    },
+    "vault-search": {
+      "command": "${HOME}/.claude/vectordb-venv/.venv/bin/python",
+      "args": [
+        "${HOME}/.claude/vectordb-venv/mcp_server.py"
+      ]
+    },
+    "mcp-dropshipping": {
+      "command": "${HOME}/.local/bin/uv",
+      "args": [
+        "run",
+        "--project",
+        "${HOME}/Proyectos/mcp-dropshipping",
+        "${HOME}/Proyectos/mcp-dropshipping/server.py"
+      ]
+    },
+    "mcp-marketing": {
+      "command": "${HOME}/.local/bin/uv",
+      "args": [
+        "run",
+        "--project",
+        "${HOME}/Proyectos/mcp-marketing",
+        "${HOME}/Proyectos/mcp-marketing/server.py"
+      ]
+    },
+    "roblox-studio": {
+      "command": "${HOME}/.local/bin/roblox-studio-mcp.sh"
+    },
+    "supabase": {
+      "type": "http",
+      "url": "https://mcp.supabase.com/mcp?features=docs%2Caccount%2Cdatabase%2Cdebugging%2Cdevelopment%2Cfunctions%2Cbranching&read_only=true"
+    }
+  }
+}

@@ -1,0 +1,686 @@
+{
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_EFFORT": "low",
+    "CLAUDE_CODE_DISABLE_AGENT_PROGRESS_SUMMARIES": "1",
+    "MAX_THINKING_TOKENS": "10000",
+    "CHROME_PATH": "/home/haytham/.local/bin/chromium"
+  },
+  "cleanupPeriodDays": 180,
+  "permissions": {
+    "deny": [
+      "Read(**/node_modules/**)",
+      "Read(**/.git/**)",
+      "Read(**/__pycache__/**)",
+      "Read(**/.venv/**)",
+      "Read(**/venv/**)",
+      "Read(**/graphify-out/graph.json)",
+      "Read(**/graphify-out/cache/**)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(**/secrets/**)",
+      "Read(~/.aws/**)",
+      "Read(~/.ssh/id_*)",
+      "Read(~/.config/gcloud/**)",
+      "Bash(terraform destroy:*)",
+      "Bash(terraform apply -auto-approve:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)"
+    ],
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(terraform apply:*)"
+    ]
+  },
+  "model": "sonnet",
+  "skillOverrides": {
+    "accesslint-audit": "name-only",
+    "accesslint-diff": "name-only",
+    "2slides-ppt-generator": "name-only",
+    "buildkite:buildkite-agent-runtime": "name-only",
+    "buildkite:buildkite-api": "name-only",
+    "buildkite:buildkite-cache": "name-only",
+    "buildkite:buildkite-cli": "name-only",
+    "buildkite:buildkite-migration": "name-only",
+    "buildkite:buildkite-pipelines": "name-only",
+    "buildkite:buildkite-preflight": "name-only",
+    "qt-development-skills:qt-canvas2d": "name-only",
+    "qt-development-skills:qt-cmake-project": "name-only",
+    "qt-development-skills:qt-cpp-docs": "name-only",
+    "qt-development-skills:qt-cpp-review": "name-only",
+    "qt-development-skills:qt-figma-component-generation": "name-only",
+    "qt-development-skills:qt-figma-token-extraction": "name-only",
+    "qt-development-skills:qt-qml": "name-only",
+    "qt-development-skills:qt-qml-docs": "name-only",
+    "qt-development-skills:qt-qml-profiler": "name-only",
+    "qt-development-skills:qt-qml-review": "name-only",
+    "qt-development-skills:qt-qml-test": "name-only",
+    "qt-development-skills:qt-qml-test-run": "name-only",
+    "qt-development-skills:qt-ui-design": "name-only",
+    "base44:base44-cli": "name-only",
+    "base44:base44-remote-dev": "name-only",
+    "base44:base44-sandbox": "name-only",
+    "base44:base44-sdk": "name-only",
+    "base44:base44-troubleshooter": "name-only",
+    "fastly-agent-toolkit:falco": "name-only",
+    "fastly-agent-toolkit:fastlike": "name-only",
+    "fastly-agent-toolkit:fastly": "name-only",
+    "fastly-agent-toolkit:fastly-cli": "name-only",
+    "fastly-agent-toolkit:fastly-fiddle": "name-only",
+    "fastly-agent-toolkit:fastly-ngwaf": "name-only",
+    "fastly-agent-toolkit:fastly-reference-architectures": "name-only",
+    "fastly-agent-toolkit:fastly-stats": "name-only",
+    "fastly-agent-toolkit:viceroy": "name-only",
+    "fastly-agent-toolkit:xvcl": "name-only",
+    "small-business:ad-manager": "name-only",
+    "small-business:ap-processor": "name-only",
+    "small-business:brand-style": "name-only",
+    "small-business:build-agent": "name-only",
+    "small-business:build-connector": "name-only",
+    "small-business:business-pulse": "name-only",
+    "small-business:call-list": "name-only",
+    "small-business:canva-creator": "name-only",
+    "small-business:cash-flow-snapshot": "name-only",
+    "small-business:close-month": "name-only",
+    "small-business:content-strategy": "name-only",
+    "small-business:contract-review": "name-only",
+    "small-business:crm-autopilot": "name-only",
+    "small-business:grant-rfp-writer": "name-only",
+    "small-business:grow-pipeline": "name-only",
+    "small-business:growth-pulse": "name-only",
+    "small-business:hiring-screener": "name-only",
+    "small-business:inbox-manager": "name-only",
+    "small-business:inventory-planner": "name-only",
+    "small-business:invoice-chase": "name-only",
+    "small-business:job-post-builder": "name-only",
+    "small-business:lead-finder": "name-only",
+    "small-business:lead-triage": "name-only",
+    "small-business:marketing-monday": "name-only",
+    "small-business:monday-brief": "name-only",
+    "small-business:month-end-prep": "name-only",
+    "small-business:outreach-composer": "name-only",
+    "small-business:pay-the-bills": "name-only",
+    "small-business:payroll-prep": "name-only",
+    "small-business:plan-payroll": "name-only",
+    "small-business:proposal-builder": "name-only",
+    "small-business:reactivate": "name-only",
+    "small-business:report-builder": "name-only",
+    "small-business:report-pack": "name-only",
+    "small-business:restock": "name-only",
+    "small-business:review-reputation": "name-only",
+    "small-business:seo-ai-visibility": "name-only",
+    "small-business:smb-onboard": "name-only",
+    "small-business:smb-router": "name-only",
+    "small-business:social-content-engine": "name-only",
+    "small-business:speed-to-lead": "name-only",
+    "small-business:tax-prep": "name-only",
+    "small-business:tax-season-organizer": "name-only",
+    "small-business:ticket-deflector": "name-only",
+    "operations:capacity-plan": "name-only",
+    "operations:change-request": "name-only",
+    "operations:compliance-tracking": "name-only",
+    "operations:process-doc": "name-only",
+    "operations:process-optimization": "name-only",
+    "operations:risk-assessment": "name-only",
+    "operations:runbook": "name-only",
+    "operations:status-report": "name-only",
+    "operations:vendor-review": "name-only",
+    "sales:account-context": "name-only",
+    "sales:account-plan": "name-only",
+    "sales:account-research": "name-only",
+    "sales:account-tiering": "name-only",
+    "sales:call-prep": "name-only",
+    "sales:call-summary": "name-only",
+    "sales:close-plan": "name-only",
+    "sales:competitive-intelligence": "name-only",
+    "sales:create-an-asset": "name-only",
+    "sales:crm-hygiene-check": "name-only",
+    "sales:customer-health": "name-only",
+    "sales:customer-voice": "name-only",
+    "sales:daily-briefing": "name-only",
+    "sales:deal-advance-gap": "name-only",
+    "sales:deal-review": "name-only",
+    "sales:deal-signals": "name-only",
+    "sales:deal-slip-scenario": "name-only",
+    "sales:draft-outreach": "name-only",
+    "sales:end-of-day": "name-only",
+    "sales:expansion-whitespace": "name-only",
+    "sales:forecast": "name-only",
+    "sales:handle-objection": "name-only",
+    "sales:inbox-sweep": "name-only",
+    "sales:lead-triage": "name-only",
+    "sales:log-activity": "name-only",
+    "sales:pipeline-review": "name-only",
+    "sales:renewal-radar": "name-only",
+    "sales:rep-context": "name-only",
+    "sales:route-lead": "name-only",
+    "sales:schedule-meeting": "name-only",
+    "sales:setup": "name-only",
+    "sales:stakeholder-map": "name-only",
+    "sales:team-pipeline": "name-only",
+    "sales:update-opportunity": "name-only",
+    "sales:weekly-wrap": "name-only",
+    "sales:win-loss-review": "name-only",
+    "finance:audit-support": "name-only",
+    "finance:close-management": "name-only",
+    "finance:financial-statements": "name-only",
+    "finance:journal-entry": "name-only",
+    "finance:journal-entry-prep": "name-only",
+    "finance:reconciliation": "name-only",
+    "finance:sox-testing": "name-only",
+    "finance:variance-analysis": "name-only",
+    "apollo:enrich-lead": "name-only",
+    "apollo:prospect": "name-only",
+    "apollo:sequence-load": "name-only",
+    "enterprise-search:digest": "name-only",
+    "enterprise-search:knowledge-synthesis": "name-only",
+    "enterprise-search:search": "name-only",
+    "enterprise-search:search-strategy": "name-only",
+    "enterprise-search:source-management": "name-only",
+    "product-management:brainstorm": "name-only",
+    "product-management:competitive-brief": "name-only",
+    "product-management:metrics-review": "name-only",
+    "product-management:product-brainstorming": "name-only",
+    "product-management:roadmap-update": "name-only",
+    "product-management:sprint-planning": "name-only",
+    "product-management:stakeholder-update": "name-only",
+    "product-management:synthesize-research": "name-only",
+    "product-management:write-spec": "name-only",
+    "data:analyze": "name-only",
+    "data:build-dashboard": "name-only",
+    "data:create-viz": "name-only",
+    "data:data-context-extractor": "name-only",
+    "data:data-visualization": "name-only",
+    "data:explore-data": "name-only",
+    "data:sql-queries": "name-only",
+    "data:statistical-analysis": "name-only",
+    "data:validate-data": "name-only",
+    "data:write-query": "name-only",
+    "engineering:architecture": "name-only",
+    "engineering:code-review": "name-only",
+    "engineering:debug": "name-only",
+    "engineering:deploy-checklist": "name-only",
+    "engineering:documentation": "name-only",
+    "engineering:incident-response": "name-only",
+    "engineering:standup": "name-only",
+    "engineering:system-design": "name-only",
+    "engineering:tech-debt": "name-only",
+    "engineering:testing-strategy": "name-only",
+    "vpai:vibe-prospecting": "name-only",
+    "vpai:skip_sample": "name-only",
+    "airtable:agent-activity-log": "name-only",
+    "airtable:airtable-cli": "name-only",
+    "airtable:airtable-filters": "name-only",
+    "airtable:airtable-overview": "name-only",
+    "airtable:marketing-ops": "name-only",
+    "airtable:product-ops": "name-only",
+    "airtable:sales-ops": "name-only",
+    "airtable:show-airtable-link": "name-only",
+    "cowork-plugin-management:cowork-plugin-customizer": "name-only",
+    "cowork-plugin-management:create-cowork-plugin": "name-only"
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$HOME/.claude/bin/guard-web",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "$HOME/.claude/bin/guard-secretos",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "$HOME/.claude/bin/recordar-diseno",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "$HOME/.claude/bin/slop-gate",
+            "timeout": 30
+          }
+        ]
+      },
+      {
+        "matcher": "Bash|mcp__supabase__execute_sql",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$HOME/.claude/bin/guard-destructive",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "$HOME/.claude/bin/guard-secretos",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$HOME/.claude/bin/guard-proyecto",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "rtk hook claude",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$HOME/.claude/bin/guard-ui-commit",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$HOME/.claude/bin/guard-read-grande",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$HOME/.claude/bin/format-web",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Skill",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$HOME/.claude/bin/log-skill",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "mcp__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$HOME/.claude/bin/log-mcp",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$HOME/.claude/bin/verificar-cierre",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$HOME/.claude/bin/check-hooks --sesion",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$HOME/.claude/bin/recordar-errores",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  },
+  "respondToBashCommands": false,
+  "statusLine": {
+    "type": "command",
+    "command": "node '/home/haytham/.claude/plugins/marketplaces/alexgreensh-token-optimizer/skills/token-optimizer/scripts/statusline.js'"
+  },
+  "enabledPlugins": {
+    "document-skills@anthropic-agent-skills": false,
+    "example-skills@anthropic-agent-skills": false,
+    "claude-api@anthropic-agent-skills": false,
+    "marketing-skills@claude-code-skills": true,
+    "c-level-skills@claude-code-skills": false,
+    "c-level-agents@claude-code-skills": false,
+    "general-counsel-advisor@claude-code-skills": false,
+    "arquiteto-de-empresa@claude-code-skills": false,
+    "chief-data-officer-advisor@claude-code-skills": false,
+    "vpe-advisor@claude-code-skills": false,
+    "chief-customer-officer-advisor@claude-code-skills": false,
+    "chief-ai-officer-advisor@claude-code-skills": false,
+    "engineering-advanced-skills@claude-code-skills": false,
+    "engineering-skills@claude-code-skills": false,
+    "ra-qm-skills@claude-code-skills": false,
+    "product-skills@claude-code-skills": false,
+    "pm-skills@claude-code-skills": false,
+    "business-growth-skills@claude-code-skills": false,
+    "finance-skills@claude-code-skills": false,
+    "pw@claude-code-skills": false,
+    "self-improving-agent@claude-code-skills": false,
+    "autoresearch-agent@claude-code-skills": false,
+    "google-workspace-cli@claude-code-skills": false,
+    "code-to-prd@claude-code-skills": false,
+    "agenthub@claude-code-skills": false,
+    "a11y-audit@claude-code-skills": false,
+    "executive-mentor@claude-code-skills": false,
+    "docker-development@claude-code-skills": false,
+    "helm-chart-builder@claude-code-skills": false,
+    "terraform-patterns@claude-code-skills": false,
+    "research-summarizer@claude-code-skills": false,
+    "code-tour@claude-code-skills": false,
+    "demo-video@claude-code-skills": false,
+    "data-quality-auditor@claude-code-skills": false,
+    "statistical-analyst@claude-code-skills": false,
+    "apple-hig-expert@claude-code-skills": false,
+    "llm-wiki@claude-code-skills": false,
+    "karpathy-coder@claude-code-skills": false,
+    "feature-flags-architect@claude-code-skills": false,
+    "kubernetes-operator@claude-code-skills": false,
+    "chaos-engineering@claude-code-skills": false,
+    "slo-architect@claude-code-skills": false,
+    "write-a-skill@claude-code-skills": false,
+    "workflow-builder@claude-code-skills": false,
+    "caveman@claude-code-skills": false,
+    "zero-hallucination-coder@claude-code-skills": false,
+    "agent-harness@claude-code-skills": false,
+    "grill-me@claude-code-skills": false,
+    "handoff-engineering@claude-code-skills": false,
+    "agile-product-owner@claude-code-skills": false,
+    "capture-skill@claude-code-skills": false,
+    "email-pair@claude-code-skills": false,
+    "reflect-skill@claude-code-skills": false,
+    "handoff-productivity@claude-code-skills": false,
+    "andreessen@claude-code-skills": false,
+    "roast@claude-code-skills": false,
+    "fable-goal@claude-code-skills": false,
+    "weekly-review@claude-code-skills": false,
+    "deep-work@claude-code-skills": false,
+    "meetings@claude-code-skills": false,
+    "landing@claude-code-skills": false,
+    "pulse@claude-code-skills": false,
+    "deep-research@claude-code-skills": false,
+    "litreview@claude-code-skills": false,
+    "grants@claude-code-skills": false,
+    "dossier@claude-code-skills": false,
+    "patent@claude-code-skills": false,
+    "syllabus@claude-code-skills": false,
+    "notebooklm@claude-code-skills": false,
+    "research-orchestrator@claude-code-skills": false,
+    "aeo@claude-code-skills": false,
+    "security-guidance@claude-code-skills": false,
+    "skillopt-sleep@claude-code-skills": false,
+    "business-operations-skills@claude-code-skills": false,
+    "commercial-skills@claude-code-skills": false,
+    "universal-scraping-architect@claude-code-skills": false,
+    "research-ops-skills@claude-code-skills": false,
+    "markdown-html-skills@claude-code-skills": false,
+    "youtube-full@claude-code-skills": false,
+    "compliance-os@claude-code-skills": false,
+    "snowflake-development@claude-code-skills": false,
+    "behuman@claude-code-skills": false,
+    "claude-coach@claude-code-skills": false,
+    "grill-with-docs@claude-code-skills": false,
+    "llm-cost-optimizer@claude-code-skills": false,
+    "prompt-governance@claude-code-skills": false,
+    "business-investment-advisor@claude-code-skills": false,
+    "video-content-strategist@claude-code-skills": false,
+    "compliance-team-eu-ai-act@claude-code-skills": false,
+    "compliance-team-iso42001@claude-code-skills": false,
+    "collab-proof@claude-code-skills": false,
+    "token-optimizer@alexgreensh-token-optimizer": true,
+    "superpowers@claude-plugins-official": true,
+    "caveman@caveman": true,
+    "ecc@ecc": false,
+    "web-animation-skills@web-animation-skills": true,
+    "animejs@claude-design-skillstack": true,
+    "gsap-scrolltrigger@claude-design-skillstack": true,
+    "motion-framer@claude-design-skillstack": true,
+    "scroll-reveal-libraries@claude-design-skillstack": true,
+    "modern-web-design@claude-design-skillstack": true,
+    "animated-component-libraries@claude-design-skillstack": true,
+    "genjutsu@genjutsu": false,
+    "threejs-webgl@claude-design-skillstack": false,
+    "skill-improver@trailofbits": false,
+    "agentic-actions-auditor@trailofbits": false,
+    "supply-chain-risk-auditor@trailofbits": false,
+    "git-cleanup@trailofbits": false,
+    "plugin-dev@claude-plugins-official": false,
+    "motion-design-skills@motion-design-skills": true,
+    "google-cloud-developer@google-plugins": false,
+    "cli-anything@cli-anything": false,
+    "shopify-ai-toolkit@claude-plugins-official": false,
+    "21st@21st": true,
+    "savvy-progress@claude-kit": true,
+    "next-steps@claude-community": true,
+    "caveman@caveman": true,
+    "ponytail@ponytail": true,
+    "differential-review@trailofbits": false,
+    "watch@claude-video": true
+  },
+  "extraKnownMarketplaces": {
+    "anthropic-agent-skills": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      }
+    },
+    "claude-code-skills": {
+      "source": {
+        "source": "github",
+        "repo": "alirezarezvani/claude-skills"
+      }
+    },
+    "alexgreensh-token-optimizer": {
+      "source": {
+        "source": "github",
+        "repo": "alexgreensh/token-optimizer"
+      }
+    },
+    "token-optimizer": {
+      "source": {
+        "source": "github",
+        "repo": "ooples/token-optimizer-mcp"
+      }
+    },
+    "agent-loop-skills": {
+      "source": {
+        "source": "github",
+        "repo": "gaasher/agent-loop-skills"
+      }
+    },
+    "ecc": {
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/ECC"
+      }
+    },
+    "web-animation-skills": {
+      "source": {
+        "source": "github",
+        "repo": "iart-ai/web-animation-skills"
+      }
+    },
+    "claude-design-skillstack": {
+      "source": {
+        "source": "github",
+        "repo": "freshtechbro/claudedesignskills"
+      }
+    },
+    "genjutsu": {
+      "source": {
+        "source": "github",
+        "repo": "AThevon/genjutsu"
+      }
+    },
+    "trailofbits": {
+      "source": {
+        "source": "github",
+        "repo": "trailofbits/skills"
+      }
+    },
+    "motion-design-skills": {
+      "source": {
+        "source": "github",
+        "repo": "iart-ai/motion-design-skills"
+      }
+    },
+    "google-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "google/skills"
+      }
+    },
+    "headroom-marketplace": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/headroomlabs-ai/headroom.git"
+      }
+    },
+    "cli-anything": {
+      "source": {
+        "source": "github",
+        "repo": "HKUDS/CLI-Anything"
+      }
+    },
+    "21st": {
+      "source": {
+        "source": "github",
+        "repo": "21st-dev/claude-code-plugin"
+      }
+    },
+    "claude-kit": {
+      "source": {
+        "source": "github",
+        "repo": "johnnyvizz/claude-kit"
+      }
+    },
+    "claude-community": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-community"
+      }
+    },
+    "caveman": {
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman"
+      }
+    },
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
+    },
+    "claude-video": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/bradautomates/claude-video.git"
+      }
+    }
+  },
+  "effortLevel": "medium",
+  "modelSettings": {
+    "claude-sonnet-5-5": {
+      "autoCompactWindow": 300000
+    },
+    "claude-haiku-5.5": {
+      "autoCompactWindow": 200000
+    }
+  },
+  "autoCompactWindow": 200000,
+  "pluginConfigs": {
+    "savvy-progress@claude-kit": {
+      "options": {
+        "autoOpen": "any",
+        "language": "auto"
+      }
+    }
+  },
+  "theme": "auto",
+  "autoMode": {
+    "environment": [
+      "### Org-wide",
+      "**Organization**: None configured",
+      "**Cloud provider(s)**: None configured",
+      "**Internal sharing / snippet hosting**: None configured — treat public paste/gist services as outside the trust boundary",
+      "**CI/CD deploy targets**: None configured",
+      "**Network posture**: None configured",
+      "**Trusted internal domains**: None configured",
+      "**Trusted cloud buckets**: None configured",
+      "**Key internal services**: None configured",
+      "**Internal package registry**: None configured",
+      "**Data retention / declassification**: None configured",
+      "**Sensitive remote targets**: any namespace, host, or container whose name carries `prod` or `production` as a whole word or name segment (hyphen/underscore/dot-delimited — e.g. matches `prod-db`, not `producer`)",
+      "**Protected deployment namespaces / environments**: None configured — fall back to the Sensitive remote targets heuristic",
+      "**Protected IaC scopes**: IAM, RBAC, networking, quota, and node-pool resources; anything whose name or tag carries `prod` or `production` as a whole word or name segment",
+      "**Repository visibility**: assume private unless the remote host and repo name indicate otherwise — remote is \"github-vault-sync:abhaythambusiness-tech/Haytham-Vault.git\" (an SSH alias to GitHub); not queryable via gh in this recon (org/repo not derivable from the alias host), so treat as private by default but note it is unverified",
+      "**Secrets management**: None configured — repo CLAUDE.md instructs secret configs go to ~/.claude/reference/ with chmod 600, never committed",
+      "**Default / protected branches**: not queryable via gh (origin/HEAD unset, no org/repo derivable from the remote alias)",
+      "**Host containment**: None configured — assume Claude Code runs on an ordinary developer machine with open internet",
+      "**Source control**: The trusted repo (this vault at /home/haytham/Documentos/vault) and its remote \"github-vault-sync:abhaythambusiness-tech/Haytham-Vault.git\" only — no additional orgs configured",
+      "**Sensitive data locations & audiences**: this vault (/home/haytham/Documentos/vault) holds Haytham's personal/business PARA content — NeoZeler client, pipeline, and commercial data under 02_Areas/NeoZeler, plus Reto-30 (a joint project with a named third party, Pedro) under 01_Projects/Reto-30 — treat both as confidential business data; share only with audiences cleared at the [named+specifics] bar",
+      "### User-specific",
+      "routine under 02_Areas/NeoZeler/ and 00_Meta/Sesiones/ prefixes for vault note creation/editing is this user's normal workflow",
+      "**Primary use of Claude Code**: personal knowledge/vault management (Obsidian PARA method) combined with software development support for projects referenced from the vault (code itself lives under ~/Proyectos/<nombre>/, outside this repo)",
+      "**Trusted repo**: The vault at /home/haytham/Documentos/vault (this session's working directory) and its configured remote \"github-vault-sync:abhaythambusiness-tech/Haytham-Vault.git\" — auto-pushed per repo CLAUDE.md; visibility unverified so treat pushes there with public-repo caution until confirmed private",
+      "**Org-specific CLIs**: None configured — `graphify`, `specify` (spec-kit), and the `obsidian-vault`/`vault-search`/`token-optimizer` MCP tooling are personal tooling, not org-specific"
+    ]
+  },
+  "_disabledMcpServers": {
+    "rea": {
+      "command": "env",
+      "args": [
+        "PATH=/home/haytham/.local/share/fnm/node-versions/v20.20.2/installation/bin:/usr/local/bin:/usr/bin:/bin",
+        "npx",
+        "-y",
+        "rea-agents@6.5.0",
+        "mcp"
+      ],
+      "nota": "desactivado por defecto; activar solo para ingeniería inversa de software propio con permiso"
+    },
+    "doory": {
+      "nota": "desactivado 2026-11-04; config con token en reference/mcp-desactivados-secretos.json (chmod 600, fuera de git); rotar token si se reactiva"
+    }
+  },
+  "outputStyle": "Concise"
+}

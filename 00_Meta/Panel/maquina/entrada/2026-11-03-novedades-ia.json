@@ -1,0 +1,187 @@
+{
+  "generado": "2026-11-03T22:13:34.980632+00:00",
+  "origen": "script",
+  "items": [
+    {
+      "fuente": "Hacker News (LLM, 100+ puntos)",
+      "titulo": "LLM Voice",
+      "enlace": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "fecha": "Thu, 29 Oct 2026 14:57:55 +0000"
+    },
+    {
+      "fuente": "Hacker News (LLM, 100+ puntos)",
+      "titulo": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "enlace": "https://www.brangus.io/survival-llm",
+      "fecha": "Tue, 27 Oct 2026 19:55:06 +0000"
+    },
+    {
+      "fuente": "Hacker News (LLM, 100+ puntos)",
+      "titulo": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "enlace": "https://minimaxir.com/2026/10/cheap-llms/",
+      "fecha": "Sun, 25 Oct 2026 21:11:31 +0000"
+    },
+    {
+      "fuente": "Hacker News (LLM, 100+ puntos)",
+      "titulo": "Using LLM for confidence scoring is a bad idea",
+      "enlace": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+      "fecha": "Wed, 21 Oct 2026 04:27:51 +0000"
+    },
+    {
+      "fuente": "Hacker News (LLM, 100+ puntos)",
+      "titulo": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "enlace": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "fecha": "Mon, 19 Oct 2026 23:22:18 +0000"
+    },
+    {
+      "fuente": "Hacker News (LLM, 100+ puntos)",
+      "titulo": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+      "enlace": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "fecha": "Mon, 19 Oct 2026 12:07:41 +0000"
+    },
+    {
+      "fuente": "Hacker News (LLM, 100+ puntos)",
+      "titulo": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "enlace": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "fecha": "Sun, 18 Oct 2026 21:09:12 +0000"
+    },
+    {
+      "fuente": "Hacker News (LLM, 100+ puntos)",
+      "titulo": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "enlace": "https://arxiv.org/abs/2610.18861",
+      "fecha": "Sun, 18 Oct 2026 20:48:14 +0000"
+    },
+    {
+      "fuente": "Hacker News (LLM, 100+ puntos)",
+      "titulo": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "enlace": "https://llmspeed.dev/",
+      "fecha": "Sat, 17 Oct 2026 04:36:53 +0000"
+    },
+    {
+      "fuente": "Hacker News (LLM, 100+ puntos)",
+      "titulo": "Linus Torvalds's first LLM-assisted patch series",
+      "enlace": "https://lwn.net/Articles/1100449/",
+      "fecha": "Wed, 14 Oct 2026 16:55:07 +0000"
+    },
+    {
+      "fuente": "Hacker News (LLM, 100+ puntos)",
+      "titulo": "Why do LLM pelicans look like this?",
+      "enlace": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
+      "fecha": "Wed, 14 Oct 2026 16:33:34 +0000"
+    },
+    {
+      "fuente": "Hacker News (LLM, 100+ puntos)",
+      "titulo": "Ask HN: CAD for wood working with LLM support?",
+      "enlace": "https://news.ycombinator.com/item?id=50067325",
+      "fecha": "Tue, 13 Oct 2026 05:54:01 +0000"
+    },
+    {
+      "fuente": "Hacker News (LLM, 100+ puntos)",
+      "titulo": "The gap in shared understanding of LLM capability is widening",
+      "enlace": "https://twitter.com/karpathy/status/2109361546505966046",
+      "fecha": "Sun, 11 Oct 2026 20:20:52 +0000"
+    },
+    {
+      "fuente": "Hacker News (LLM, 100+ puntos)",
+      "titulo": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+      "enlace": "https://github.com/pingdotgg/ts-rust",
+      "fecha": "Thu, 08 Oct 2026 00:46:00 +0000"
+    },
+    {
+      "fuente": "Hacker News (LLM, 100+ puntos)",
+      "titulo": "Aleph Alpha Kolibri: How the sovereign German LLM works",
+      "enlace": "https://tej.as/blog/aleph-alpha-kolibri",
+      "fecha": "Sat, 03 Oct 2026 10:43:51 +0000"
+    },
+    {
+      "fuente": "Hugging Face",
+      "titulo": "StateBench: Testing how language models track state changes over long documents",
+      "enlace": "https://huggingface.co/blog/allenai/statebench",
+      "fecha": "Tue, 03 Nov 2026 17:15:21 GMT"
+    },
+    {
+      "fuente": "Hugging Face",
+      "titulo": "Palette: teaching a small model to build decks in your design language",
+      "enlace": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "fecha": "Tue, 03 Nov 2026 16:35:36 GMT"
+    },
+    {
+      "fuente": "Hugging Face",
+      "titulo": "CWE-bench v2: More coverage, quality, and transparency",
+      "enlace": "https://huggingface.co/blog/cwe-bench",
+      "fecha": "Tue, 03 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "fuente": "Hugging Face",
+      "titulo": "Transformers Model Integration Contracts",
+      "enlace": "https://huggingface.co/blog/transformers-mic",
+      "fecha": "Tue, 03 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "fuente": "Hugging Face",
+      "titulo": "nemotron-halloween",
+      "enlace": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "fecha": "Fri, 30 Oct 2026 17:57:24 GMT"
+    },
+    {
+      "fuente": "Hugging Face",
+      "titulo": "Granite Switch 4.1.1 — Update models like you update software",
+      "enlace": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "fecha": "Thu, 29 Oct 2026 13:37:07 GMT"
+    },
+    {
+      "fuente": "Hugging Face",
+      "titulo": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "enlace": "https://huggingface.co/blog/announcing-project-protostar",
+      "fecha": "Thu, 29 Oct 2026 00:00:00 GMT"
+    },
+    {
+      "fuente": "Hugging Face",
+      "titulo": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "enlace": "https://huggingface.co/blog/mistral-large4",
+      "fecha": "Thu, 29 Oct 2026 00:00:00 GMT"
+    },
+    {
+      "fuente": "Hugging Face",
+      "titulo": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "enlace": "https://huggingface.co/blog/anydecisionmodel",
+      "fecha": "Thu, 29 Oct 2026 00:00:00 GMT"
+    },
+    {
+      "fuente": "Hugging Face",
+      "titulo": "Build specialized multimodal models with LFM3",
+      "enlace": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "fecha": "Tue, 27 Oct 2026 17:16:52 GMT"
+    },
+    {
+      "fuente": "Hugging Face",
+      "titulo": "Does Your Model Run on AWS Trainium? Look It Up",
+      "enlace": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "fecha": "Fri, 23 Oct 2026 00:00:00 GMT"
+    },
+    {
+      "fuente": "Hugging Face",
+      "titulo": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "enlace": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "fecha": "Thu, 22 Oct 2026 22:24:34 GMT"
+    },
+    {
+      "fuente": "Hugging Face",
+      "titulo": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "enlace": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "fecha": "Wed, 21 Oct 2026 17:35:36 GMT"
+    },
+    {
+      "fuente": "Hugging Face",
+      "titulo": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "enlace": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "fecha": "Wed, 21 Oct 2026 16:04:43 GMT"
+    },
+    {
+      "fuente": "Hugging Face",
+      "titulo": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "enlace": "https://huggingface.co/blog/hf-torchtpu",
+      "fecha": "Tue, 20 Oct 2026 00:00:00 GMT"
+    }
+  ],
+  "errores": []
+}

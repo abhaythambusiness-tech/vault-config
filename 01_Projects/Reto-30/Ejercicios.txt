@@ -1,0 +1,244 @@
+Día,Enfoque,Nivel fácil,Nivel medio,Nivel avanzado,Reto especial
+1,Cardio,"1. Marcha suave (30 s): camina en el sitio.
+2. Pasos laterales (30 s): desplázate de lado.
+3. Brazos arriba (30 s): eleva y baja mientras marchas.","1. Marcha rápida (40 s): ritmo fluido.
+2. Paso lateral + brazos (40 s): abre y cierra brazos.
+3. Rodillas suaves (30 s): elevación alterna sin correr.","1. Marcha muy rápida (40 s): intensidad constante.
+2. Estrella sin salto (40 s): abre pierna y brazos alternando.
+3. Rodillas arriba (40 s): eleva rodillas a ritmo continuo.",—
+2,Piernas,"1. Sentarse y levantarse (8 rep): apóyate en silla si lo necesitas.
+2. Elevación de talones (12 rep): sube a puntillas.
+3. Marcha en el sitio (30 s): ritmo cómodo.","1. Sentadilla libre (10 rep): cadera atrás, espalda recta.
+2. Elevación de talones (15 rep): control en bajada.
+3. Paso atrás corto (6 por pierna): zancada suave.","1. Sentadilla lenta (12 rep): baja en 3 s.
+2. Zancada atrás (8 por pierna): paso amplio.
+3. Talones con pausa 1s (18 rep): aguanta arriba.",—
+3,Abdominales,"1. Rodilla al pecho de pie (10/lado): eleva y vuelve.
+2. Toque cruzado mano-rodilla (10/lado): aprieta abdomen.
+3. Giro de tronco suave (10/lado): pies fijos.","1. Rodilla al pecho (12/lado): ritmo continuo.
+2. Crunch / Abdominal corto (8 rep): tumbado boca arriba.
+3. Toque cruzado codo-rodilla (12/lado): de pie.","1. Rodilla al pecho (15/lado): control postural.
+2. Bicicleta abdominal (12/lado): boca arriba.
+3. Crunch con elevación de piernas (12 rep).","RETO ESPECIAL — Coordinación abdominal:
+🟢 Fácil: 30 s toque cruzado
+🟡 Medio: 45 s
+🔴 Avanzado: 60 s"
+4,Fuerza,"1. Empuje en pared (8 rep): flexión contra pared.
+2. Sentadilla a silla (8 rep): referencia de silla.
+3. Elevación de brazos (10 rep): de frente y arriba.","1. Empuje en pared inclinado (10 rep): pies más atrás.
+2. Sentadilla profunda (10 rep): hasta 90°.
+3. Elevación lateral de brazos (15 rep).","1. Flexión en mesa/superficie estable (8 rep).
+2. Sentadilla (12 rep): mantén pecho erguido.
+3. Sentadilla con elevación de brazos (10 rep).",—
+5,Movilidad,"1. Círculos de hombros (20 s): suave hacia atrás.
+2. Giros suaves de tronco (20 s): brazos relajados.
+3. Rotación de tobillos (20 s por lado).","1. Círculos de hombros amplios (30 s).
+2. Giros de tronco acompañando mirada (30 s).
+3. Círculos de cadera de pie (30 s).","1. Rotación de hombros y escápulas (40 s).
+2. Giros de tronco con brazos abiertos (40 s).
+3. Apertura de cadera con elevación de rodilla (40 s).",—
+6,Cardio,"1. Marcha en el sitio (30 s).
+2. Sombra de boxeo (30 s): jabs sencillos al frente.
+3. Pasos laterales con aplauso (30 s).","1. Skipping bajo (40 s): rodillas a media altura.
+2. Sombra de boxeo (40 s): directos y ganchos suaves.
+3. Estrella sin salto (40 s).","1. Skipping enérgico (45 s).
+2. Sombra de boxeo intensa (40 s): combina puñetazos.
+3. Jumping Jacks tradicionales (40 s).","RETO ESPECIAL — Reto del ritmo:
+🟢 Fácil: 2 min marcha + boxeo
+🟡 Medio: 2 min añadiendo skipping
+🔴 Avanzado: 3 min cambiando ejercicio cada 30 s"
+7,Piernas,"1. Sentadilla a silla (10 rep).
+2. Puente de glúteo en suelo (10 rep): eleva cadera tumbado.
+3. Pasos laterales cortos (30 s).","1. Sentadilla isométrica en pared (15 s aguantando abajo).
+2. Puente de glúteo a una pierna (8 por lado).
+3. Zancada atrás corta (8 por lado).","1. Sentadilla isométrica en pared (25 s).
+2. Puente de glúteo con pausa 2s arriba (12 rep).
+3. Zancada atrás con elevación de rodilla (10 por lado).",—
+8,Abdominales,"1. Rodilla al pecho alterna de pie (10 por lado).
+2. Plancha inclinada en pared (20 s): cuerpo alineado.
+3. Elevación de piernas alternas tumbado (8 por lado).","1. Toque cruzado codo-rodilla (12 por lado).
+2. Plancha sobre rodillas en suelo (25 s).
+3. Tijeras de piernas tumbado (12 rep).","1. Bicicleta abdominal rápida (15 por lado).
+2. Plancha frontal estándar en antebrazos (35 s).
+3. Aleteo de piernas / Flutter kicks (20 s).",—
+9,Fuerza,"1. Empuje en pared (10 rep).
+2. Fondos de tríceps en silla/sofá (6 rep): baja cadera suave.
+3. Sentadilla con elevación de talones (10 rep).","1. Flexión inclinada en mesa/banco (8 rep).
+2. Fondos de tríceps en silla (10 rep).
+3. Sentadilla + press de brazos al subir (10 rep).","1. Flexión sobre rodillas o suelo (8-10 rep).
+2. Fondos de tríceps piernas extendidas (12 rep).
+3. Sentadilla con pausa 2s abajo (12 rep).","RETO ESPECIAL — Circuito de fuerza:
+🟢 Fácil: 20 s flexión + 20 s sentadilla + 20 s fondos
+🟡 Medio: 30 s cada ejercicio
+🔴 Avanzado: 40 s cada ejercicio"
+10,Movilidad,"1. Movilidad de cuello y hombros (20 s).
+2. Gato-Camello en cuadrupedia (20 s): arquea y redondea espalda.
+3. Círculos de cadera (20 s).","1. Círculos de brazos y escápulas (30 s).
+2. Gato-Camello fluido (30 s).
+3. Zancada baja con apertura de tórax (30 s).","1. Rotación dorsal de rodillas en suelo (40 s).
+2. Gato-Camello con pausa (40 s).
+3. Movilidad profunda de cadera 90/90 (40 s).",—
+11,Cardio,"1. Pasos laterales amplios (30 s).
+2. Sombra de boxeo con desplazamiento (30 s).
+3. Talones al glúteo suaves (30 s).","1. Patinadores suaves (35 s): paso lateral cruzando pierna detrás.
+2. Sombra de boxeo ritmo alto (40 s).
+3. Talones al glúteo ritmo continuo (35 s).","1. Patinadores con salto (45 s): impulso dinámico.
+2. Sombra de boxeo + esquivas (40 s).
+3. Talones al glúteo veloz (40 s).",—
+12,Piernas,"1. Sentadilla sumo (10 rep): pies abiertos.
+2. Paso lateral con flexión suave (8 por lado).
+3. Elevación de talones (15 rep).","1. Sentadilla sumo (12 rep).
+2. Zancada lateral (8 por lado): desplázate y flexiona.
+3. Peso muerto a una pierna sin peso (8 por lado): equilibrio.","1. Sentadilla sumo con rebote abajo (12 rep).
+2. Zancada lateral fluida (10 por lado).
+3. Peso muerto a una pierna (10 por lado) + elevación de talón.","RETO ESPECIAL — Reto de piernas:
+🟢 Fácil: 1 min sentadilla sumo + talones
+🟡 Medio: 90 s añadiendo zancadas
+🔴 Avanzado: 2 min circuito continuo"
+13,Abdominales,"1. Elevación de rodillas cruzadas de pie (12 por lado).
+2. Escaladores en pared (20 s): lleva rodillas al pecho.
+3. Abdominal corto (10 rep).","1. Escaladores inclinados en mesa o silla (30 s).
+2. Abdominal corto con toque de tobillos (12 por lado).
+3. Plancha lateral sobre rodillas (15 s por lado).","1. Escaladores en suelo (40 s): ritmo medio-rápido.
+2. Crunch invertido / Elevación de cadera (12 rep).
+3. Plancha lateral completa (25 s por lado).",—
+14,Fuerza,"1. Empuje en pared (10 rep).
+2. Remo imaginario apretando escápulas (12 rep).
+3. Zancada atrás asistida (6 por lado).","1. Flexión inclinada (10 rep).
+2. Nadador / Superman alterno en suelo (10 rep).
+3. Zancada atrás (8 por lado).","1. Flexiones con pies elevados o estándar (8-10 rep).
+2. Nadador Y-T-W boca abajo (12 rep): espalda alta.
+3. Zancada caminada o alternativa rápida (10 por lado).",—
+15,Movilidad,"1. Hombros y brazos arriba (30 s).
+2. Estiramiento de gato a posición de niño (30 s).
+3. Rotación suave de tobillos y rodillas (30 s).","1. Transición gato a pirámide / perro boca abajo (30 s).
+2. Torsión de columna sentado (30 s).
+3. Apertura de pecho en pared (30 s).","1. Perro boca abajo alternando talones (40 s).
+2. Zancada del corredor con torsión de tronco (40 s).
+3. Movilidad de cadera en cuclillas / Malasana (40 s).","RETO ESPECIAL — Reto de movilidad:
+🟢 Fácil: 1 min de flujo continuo
+🟡 Medio: 90 s
+🔴 Avanzado: 2 min"
+16,Cardio,"1. Marcha rápida con pasos amplios (30 s).
+2. Jumping Jacks sin salto (30 s).
+3. Sombra de boxeo (30 s).","1. Skipping bajo con braceo (40 s).
+2. Jumping Jacks tradicionales con salto (35 s).
+3. Patinadores continuos (35 s).","1. Skipping alto (45 s).
+2. Jumping Jacks intensos (40 s).
+3. Patinadores explosivos con salto (40 s).",—
+17,Piernas,"1. Subida a escalón bajo / Step-up suave (8 por lado).
+2. Sentadilla tradicional (10 rep).
+3. Elevación de talones (15 rep).","1. Subida a escalón/silla estable (10 por lado).
+2. Sentadilla con pausa 2s abajo (10 rep).
+3. Zancada atrás isométrica (15 s por lado).","1. Sentadilla búlgara con pie atrás en silla (8 por lado).
+2. Step-up continuo con elevación de rodilla (12 por lado).
+3. Sentadilla con salto suave (10 rep).",—
+18,Abdominales,"1. Toque de rodillas cruzado de pie (12 por lado).
+2. Plancha en pared tocando hombros alternos (20 s).
+3. Abdominal corto (10 rep).","1. Bicicleta abdominal (12 por lado).
+2. Plancha sobre rodillas con toque de hombro (25 s).
+3. Elevación de piernas a 45° (10 rep).","1. Bicicleta abdominal (15 por lado).
+2. Plancha completa con toque de hombro (35 s).
+3. Navaja / V-up modificado (10 rep).","RETO ESPECIAL — Coordinación de core:
+🟢 Fácil: 30 s toque de hombros en plancha
+🟡 Medio: 45 s
+🔴 Avanzado: 60 s"
+19,Fuerza,"1. Flexión en pared manos juntas (10 rep).
+2. Sentadilla a silla (10 rep).
+3. Superman en suelo (10 rep).","1. Flexión inclinada manos medias (10 rep).
+2. Fondos de tríceps en silla (10 rep).
+3. Sentadilla con elevación lateral de pierna (8 por lado).","1. Flexiones en suelo (estrechas o normales) (8-12 rep).
+2. Fondos de tríceps con pies extendidos (12 rep).
+3. Combo Sentadilla + Zancada atrás (8 por lado).",—
+20,Movilidad,"1. Movilidad de hombros y escápulas (30 s).
+2. Círculos de cadera amplios (30 s).
+3. Inclinación lateral de tronco (30 s).","1. Apertura pectoral en marco de puerta (30 s por lado).
+2. Estiramiento de glúteo/piramidal sentado (30 s por lado).
+3. Sentadilla profunda asistida (30 s).","1. Zancada con apertura de tórax 'World's Greatest Stretch' (40 s).
+2. Cuclillas profundas con rotación de brazos (40 s).
+3. Puente de hombros dinámico (40 s).",—
+21,Cardio,"1. Marcha vigorosa (30 s).
+2. Patinadores suaves (30 s).
+3. Escaladores en pared (30 s).","1. Skipping medio (40 s).
+2. Patinadores rápidos (40 s).
+3. Escaladores en mesa (35 s).","1. Skipping rápido (45 s).
+2. Patinadores con salto amplio (40 s).
+3. Escaladores en suelo veloz (40 s).","RETO ESPECIAL — Reto de resistencia cardio:
+🟢 Fácil: 2 min sin parar
+🟡 Medio: 3 min
+🔴 Avanzado: 4 min"
+22,Piernas,"1. Sentadilla tradicional (10 rep).
+2. Paso atrás corto (8 por lado).
+3. Elevación de talones a una pierna asistida (8 por lado).","1. Sentadilla con 1 rebote abajo (10 rep).
+2. Zancada caminada o alterna rápida (10 por lado).
+3. Elevación de talones a una pierna (10 por lado).","1. Sentadilla con 2 rebotes abajo (12 rep).
+2. Zancada atrás explosiva con impulso (8 por lado).
+3. Elevación de talones libre a una pierna (12 por lado).",—
+23,Abdominales,"1. Elevación lateral de rodilla de pie (10 por lado).
+2. Plancha inclinada (25 s).
+3. Crunch corto (12 rep).","1. Plancha Spiderman sobre rodillas (8 por lado).
+2. Bicicleta abdominal (12 por lado).
+3. Elevación de cadera tumbado (10 rep).","1. Plancha Spiderman completa (10 por lado).
+2. Hollow hold / Barquito isométrico (25 s).
+3. Crunch cruzado intenso (15 por lado).",—
+24,Fuerza,"1. Flexión en pared (10 rep).
+2. Sentadilla (10 rep).
+3. Elevación lateral de brazos (12 rep).","1. Flexión inclinada (10 rep).
+2. Sentadilla + press de hombros imaginario (12 rep).
+3. Fondos de tríceps (10 rep).","1. Flexión declinada (pies elevados) o estándar (10 rep).
+2. Sentadilla isométrica 20 s + 8 flexiones.
+3. Fondos de tríceps profundos (12 rep).","RETO ESPECIAL — Circuito completo de fuerza:
+🟢 Fácil: 3 rondas de 20 s
+🟡 Medio: 3 rondas de 30 s
+🔴 Avanzado: 3 rondas de 40 s"
+25,Movilidad,"1. Círculos de hombros y muñecas (30 s).
+2. Balanceo suave de piernas (20 s por lado).
+3. Torsión de espalda tumbado (30 s).","1. Movilidad de escápulas Y-T-W (30 s).
+2. Balanceo de pierna frontal y lateral (30 s por lado).
+3. Estiramiento de cobra a niño (30 s).","1. Flujo de zancada + apertura dorsal + pirámide (40 s).
+2. Sentadilla profunda con rotación de brazos (40 s).
+3. Estiramiento dinámico de cadena posterior (40 s).",—
+26,Cardio,"1. Sombra de boxeo constante (30 s).
+2. Patinadores suaves (30 s).
+3. Talones al glúteo (30 s).","1. Escaladores inclinados (40 s).
+2. Jumping Jacks tradicionales (35 s).
+3. Burpees adaptados sin salto (manos a silla, paso atrás y pie) (6 rep).","1. Burpees adaptados en suelo (8-10 rep).
+2. Jumping Jacks explosivos (40 s).
+3. Skipping con elevación máxima (40 s).",—
+27,Piernas,"1. Sentadilla (10 rep).
+2. Zancada atrás corta (6 por lado).
+3. Equilibrio sobre 1 pierna (15 s por lado).","1. Sentadilla con elevación de talón al subir (12 rep).
+2. Zancada lateral continua (8 por lado).
+3. Equilibrio sobre 1 pierna con movimiento (20 s por lado).","1. Combo Sentadilla + Zancada dcha + Zancada izq (6 combos).
+2. Sentadilla búlgara (8 por lado).
+3. Equilibrio sobre 1 pierna + 5 elevaciones de talón.","RETO ESPECIAL — Reto de equilibrio y fuerza:
+🟢 Fácil: 15 s por pierna
+🟡 Medio: 25 s por pierna
+🔴 Avanzado: 35 s por pierna"
+28,Abdominales,"1. Elevación de rodillas de pie alternas (12 por lado).
+2. Abdominal corto (12 rep).
+3. Giros de tronco con brazos en cruz (12 por lado).","1. Bicicleta abdominal rápida (12 por lado).
+2. Plancha con extensión de brazo alterno (20 s).
+3. Crunch invertido (12 rep).","1. Sit-up completo hasta arriba (10-12 rep).
+2. Plancha Spiderman con toque de codo (12 por lado).
+3. Bicicleta intensa (15 por lado).",—
+29,Fuerza,"1. Flexión en pared (10 rep).
+2. Sentadilla a silla (10 rep).
+3. Elevación lateral de brazos (12 rep).","1. Flexión inclinada (10 rep).
+2. Fondos de tríceps en silla (10 rep).
+3. Sentadilla + brazos arriba (12 rep).","1. Flexiones con tempo 3s bajada (8-10 rep).
+2. Fondos de tríceps con pies elevados (10 rep).
+3. Sentadilla búlgara (10 por lado).",—
+30,Cuerpo Completo,"1. Marcha ágil (30 s)
+2. Sentadilla a silla (10 rep)
+3. Empuje en pared (10 rep)
+4. Abdominal corto (10 rep)","1. Skipping medio (40 s)
+2. Sentadilla libre (12 rep)
+3. Flexión inclinada (10 rep)
+4. Bicicleta abdominal (12 por lado)","1. Jumping Jacks o Burpee adaptado (40 s)
+2. Sentadilla con rebote (12 rep)
+3. Flexiones en suelo/rodillas (10 rep)
+4. Plancha Spiderman (30 s)","GRAN RETO FINAL:
+🟢 Fácil: 30 s por ejercicio
+🟡 Medio: 40 s por ejercicio
+🔴 Avanzado: 50 s por ejercicio"
