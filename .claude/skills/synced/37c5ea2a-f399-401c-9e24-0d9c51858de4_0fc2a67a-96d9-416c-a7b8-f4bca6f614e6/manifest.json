@@ -1,0 +1,248 @@
+{
+  "lastUpdated": 1794585452825,
+  "skills": [
+    {
+      "skillId": "skill_01YXWMk6e4AgxjWcYBtgHddW",
+      "name": "domain-name-brainstormer",
+      "description": "Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking.",
+      "source": "plugin",
+      "updatedAt": "2026-04-01T23:37:09.965455Z",
+      "backingPluginId": "plugin_01W6s9WnAQEYF3SfqHS9msYD"
+    },
+    {
+      "skillId": "skill_01VV37DY8VyRzY9yRPKx9nxe",
+      "name": "loop-objetivo",
+      "description": "Bucle de auto-verificación antes de entregar cualquier respuesta con entregable concreto. Úsame SIEMPRE que el usuario pida que se haga algo y no solo una charla — cualquier tarea con un entregable concreto: redacción de textos, emails, documentos o posts; análisis de datos, mercado o competencia; código, scripts o debugging; planificación y estrategia; resúmenes; automatizaciones y workflows; creación o mejora de prompts; propuestas, informes y presentaciones. Actívame aunque la petición sea informal (\"hazme un...\", \"prepara...\", \"escríbeme...\", \"monta...\", \"revisa y arregla...\"). El agente extrae el objetivo real, genera, audita su propio output contra una checklist de criterios y regenera si no encaja — el usuario solo ve el resultado final, nunca las iteraciones. NO me actives para: saludos, conversación casual, preguntas factuales de una línea, o aclaraciones rápidas sin entregable.",
+      "source": "plugin",
+      "updatedAt": "2026-08-03T01:16:52.410644Z",
+      "backingPluginId": "plugin_017ZxCGsyiWZLJkwF5k93tJS"
+    },
+    {
+      "skillId": "skill_01GaD3cichefMZDxksXrPGEH",
+      "name": "webapp-testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "source": "plugin",
+      "updatedAt": "2026-04-01T23:37:31.796970Z",
+      "backingPluginId": "plugin_01Exa92qMme1gor5RpBGUrwi"
+    },
+    {
+      "skillId": "skill_01PtYViJaFChGSL4AkSuKiLB",
+      "name": "developer-growth-analysis",
+      "description": "Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning resources from HackerNews, and automatically sends a personalized growth report to your Slack DMs.",
+      "source": "plugin",
+      "updatedAt": "2026-04-01T23:36:24.953218Z",
+      "backingPluginId": "plugin_01VrbhoBrvxMDJYKepfDbavR"
+    },
+    {
+      "skillId": "skill_01PydauY4tiBWLCUKtQrZ3Vc",
+      "name": "sistemas-escalables",
+      "description": "Diseña sistemas de vida y empresa escalables al infinito para generar resultados reales y sostenibles. Úsame SIEMPRE que el usuario quiera construir sistemas, procesos, rutinas o estructuras que funcionen sin depender de su presencia constante. Actívame con frases como: \"sistema para mi empresa\", \"sistema de vida\", \"escalar mi negocio\", \"automatizar procesos\", \"quiero resultados sin trabajar más horas\", \"sistema para crecer\", \"estructura escalable\", \"delegar sin perder control\", \"sistema de productividad\", \"flujo de trabajo\", \"procesos repetibles\", \"cómo organizar mi empresa\", \"sistema para generar ingresos\", \"quiero que mi negocio funcione sin mí\", \"sistema de hábitos\", \"rutina de alto rendimiento\", \"arquitectura de negocio\", \"sistema para alcanzar metas\". También actívame cuando el usuario describa un caos operativo, dependencia excesiva de sí mismo, falta de resultados consistentes, o quiera replicar algo que ya funciona a mayor escala.",
+      "source": "plugin",
+      "updatedAt": "2026-04-14T16:31:32.177693Z",
+      "backingPluginId": "plugin_01SWRcvLPeg5aD1i9GhhXhco"
+    },
+    {
+      "skillId": "skill_01Rm9noqYrFSHNzbro5jarwy",
+      "name": "lead-research-assistant",
+      "description": "Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies. Perfect for sales, business development, and marketing professionals.",
+      "source": "plugin",
+      "updatedAt": "2026-04-01T23:35:13.758649Z",
+      "backingPluginId": "plugin_0166VAzbyXya2nGcPpsx7ABe"
+    },
+    {
+      "skillId": "skill_014GijS3zTVWtnN5AEUHL6nG",
+      "name": "demo-desde-ficha",
+      "description": "Convierte una ficha de servicio de NeoZeler en una demo funcional montada paso a paso, con datos de prueba, verificación independiente y documentación final en Obsidian. Úsame SIEMPRE que el usuario quiera construir, montar o preparar la demo de un servicio, automatización o sistema que ya tiene documentado en una nota. Actívame con frases como: \"quiero crear la demo para esto\", \"monta este servicio\", \"ayúdame a construir esto paso a paso\", \"vamos a montar el flujo\", \"prepara la demo de X\", \"quiero implementar este servicio\", \"hazme la demo para enseñar al cliente\", \"montar el workflow de esta nota\", \"implementar la ficha de servicio\", \"pasar esto de papel a n8n\". También actívame cuando el usuario suba una nota de servicio, ficha, guía o especificación y diga que quiere construirlo, probarlo o enseñarlo a un prospecto — aunque no diga \"demo\".",
+      "source": "plugin",
+      "updatedAt": "2026-08-02T00:13:03.074789Z",
+      "backingPluginId": "plugin_01BmfdqsfXGim8wopY6Vw94L"
+    },
+    {
+      "skillId": "skill_01PFNdRN2naf7ib6uTrMSNEa",
+      "name": "project-doc-obsidian",
+      "description": "Documenta automáticamente proyectos, automatizaciones, workflows, herramientas, scripts y cualquier entregable técnico o creativo en notas Obsidian perfectamente estructuradas. Úsame SIEMPRE que el usuario haya construido, creado o terminado algo: un script, una automatización de n8n, una skill, una app, un workflow, un dashboard, una API, una herramienta, o cualquier proyecto de cualquier tipo. Actívame con frases como: \"documenta esto\", \"crea la nota del proyecto\", \"guarda esto en obsidian\", \"hazme la documentación\", \"quiero documentar lo que hicimos\", \"nota para el vault\", \"doc del proyecto\". También actívame cuando el usuario diga \"ya terminé el proyecto\", \"esto ya funciona\", \"lo podemos guardar\" o cualquier señal de que algo está listo para ser archivado o recordado. Si el proyecto es grande o tiene múltiples componentes, sé proactivo y divide en varias notas.",
+      "source": "plugin",
+      "updatedAt": "2026-04-04T19:06:09.457264Z",
+      "backingPluginId": "plugin_01BzNdJJubGYbFsCYAo7QrzU"
+    },
+    {
+      "skillId": "skill_011yrpKG5C3JFE6XsqZyTx1u",
+      "name": "leyes-autonomos-agencia-ia",
+      "description": "Experto legal y fiscal para autónomos en España que gestionan una agencia de IA. Úsame SIEMPRE que el usuario tenga dudas sobre obligaciones legales, fiscales o laborales como autónomo en España en el contexto de su agencia de IA. Actívame con frases como: \"¿qué impuestos tengo que pagar?\", \"cómo facturo a un cliente extranjero\", \"qué modelo de Hacienda necesito\", \"¿tengo que darme de alta en el IAE?\", \"cómo deducirme el portátil\", \"contrato para cliente de IA\", \"protección de datos y IA\", \"¿puedo contratar a alguien como autónomo?\", \"cuota de autónomos\", \"modelo 303\", \"modelo 130\", \"alta en autónomos\", \"factura sin IVA\", \"IVA intracomunitario\", \"LOPD agencia IA\", \"derechos de autor IA\", \"NDA para cliente\", \"contrato de servicios IA\". También actívame cuando el usuario mencione clientes, facturas, contratos, impuestos, Hacienda, Seguridad Social, RETA, o cualquier duda jurídico-fiscal relacionada con su negocio como autónomo en el sector IA.",
+      "source": "plugin",
+      "updatedAt": "2026-04-12T15:06:10.270203Z",
+      "backingPluginId": "plugin_012P4rwxe3WQiWJZSZ4Sumbs"
+    },
+    {
+      "skillId": "skill_0187ScMrftewEeJWeNtUm3N6",
+      "name": "investigacion-nichos-servicios",
+      "description": "Investiga los puntos de dolor reales de un nicho y los convierte en un catálogo de servicios vendibles con n8n como motor principal, entregando fichas comerciales, guías de demo y, cuando el servicio es un SaaS, un plan por las 5 fases de proyecto. Úsame SIEMPRE que el usuario quiera explorar un nicho para venderle automatización o IA. Actívame con frases como: \"investiga los puntos de dolor de\", \"qué le puedo vender a los\", \"crea servicios para el nicho de\", \"catálogo de servicios\", \"dame fichas de servicio y demos\", \"análisis de nicho\", \"qué automatizaciones necesitan los\", \"diseña una oferta para\", \"ideas de servicios con n8n\", \"montar un SaaS para\", \"investigación de mercado para mi agencia\". También actívame cuando el usuario nombre un nicho concreto (peluquerías, infoproductores, dentistas, gestorías, inmobiliarias, restaurantes...) y quiera saber qué venderle, aunque no diga \"servicio\" ni \"dolor\".",
+      "source": "plugin",
+      "updatedAt": "2026-08-05T18:06:44.999544Z",
+      "backingPluginId": "plugin_01DHz6RYdhHU6akMG1PduaxB"
+    },
+    {
+      "skillId": "skill_018EbfeWtp2mqtUu7frC2YrS",
+      "name": "google-trends-analyzer",
+      "description": "Convierte a Claude en un analista experto de Google Trends para validar ideas de negocio/producto, investigar keywords SEO/SEM, planificar calendarios de contenido estacionales, detectar nichos emergentes y hacer benchmark competitivo de marcas. Usa esta skill SIEMPRE que el usuario mencione Google Trends, tendencias de busqueda, interes de busqueda, si es buen momento para lanzar algo, si esta creciendo la demanda de un producto, que esta en tendencia, estacionalidad de busquedas, comparar tendencia de una marca o producto contra un competidor, keywords en alza, o breakout term, o cuando quiera decidir SI y CUANDO lanzar un producto, campana o contenido basandose en interes de busqueda. Tambien se activa si el usuario pega o adjunta un export CSV o XLSX de Google Trends (columnas tipicas de interes a lo largo del tiempo, valores 0-100, o listas de related queries o related topics) y quiere que se interprete.",
+      "source": "plugin",
+      "updatedAt": "2026-08-10T17:26:10.722229Z",
+      "backingPluginId": "plugin_01MAVufprrBgwtfj7RLPwq9k"
+    },
+    {
+      "skillId": "skill_01XNCmVdYokySXk9ovS1JYvc",
+      "name": "competitor-research",
+      "description": "Experto en investigación de competidores para agencias de IA (setters IA, automatización con n8n/Make, agentes de voz, CRM inteligente, captación con IA). Úsame SIEMPRE que el usuario quiera analizar competidores, espiar a otra agencia, posicionar su negocio frente al mercado, o definir su diferencial. Actívame con frases como: \"competitor research\", \"investigación de competidores\", \"analiza esta agencia\", \"qué hace [nombre]\", \"espía a la competencia\", \"qué cobran otras agencias\", \"cómo se posiciona X\", \"benchmarking\", \"análisis de competencia\", \"swipe file\", \"qué ofertas hay en el mercado\", \"estudio de mercado IA\", \"diferenciarme de\", \"qué hueco hay\", \"posicionamiento de agencia\", \"robar ideas de\", \"auditar competencia\", \"agencias de setter IA\", \"qué hace mi competencia\", \"research de mercado\". También actívame cuando el usuario comparta el nombre, web, LinkedIn, Skool, YouTube o Instagram de otra agencia y quiera analizarla, o cuando hable de definir su oferta, precios o pitch frente al mercado.",
+      "source": "plugin",
+      "updatedAt": "2026-05-06T12:00:21.745393Z",
+      "backingPluginId": "plugin_01THBrBt6Be3dkWSZh4VAjpG"
+    },
+    {
+      "skillId": "skill_011nUb3TL5AJqZt7MmV9tzGg",
+      "name": "auditoria-ia-clinicas",
+      "description": "Experto en auditorías de IA especializado en clínicas dentales y centros de fisioterapia para vender soluciones de automatización inteligente. Úsame SIEMPRE que el usuario quiera hacer una auditoría a una clínica dental o fisioterapeuta, preparar una propuesta de venta de IA, analizar el potencial de automatización de una clínica, o cuando diga cosas como: \"auditoría para clínica\", \"vender IA a dentista\", \"propuesta para fisio\", \"análisis de clínica dental\", \"cómo venderle a una clínica\", \"diagnóstico IA clínica\", \"qué soluciones de IA necesita esta clínica\", \"audit clínica\", \"propuesta setter IA\", \"automatización para clínica dental\", \"agente de voz clínica\", \"CRM clínica\", \"cualificar leads clínica\", \"agendar citas automático\", \"captación de pacientes\". También actívame cuando el usuario comparta información de una clínica (nombre, web, redes sociales, reseñas) y quiera analizarla para venderle soluciones de IA.",
+      "source": "plugin",
+      "updatedAt": "2026-04-26T14:58:54.418258Z",
+      "backingPluginId": "plugin_01Dty5cm5zSXypGpAHjcv3b8"
+    },
+    {
+      "skillId": "skill_01XdChv84Wx2W6hf2o24BfGi",
+      "name": "diseno-servicios-neozeler",
+      "description": "Diseña servicios de IA vendibles para NeoZeler y los documenta como par de notas Obsidian: ficha comercial + guía de montaje de la demo. Úsame SIEMPRE que el usuario quiera crear, definir, empaquetar o documentar un servicio, oferta o producto de su agencia de IA. Actívame con frases como: \"crea un servicio de\", \"nuevo servicio para el nicho de\", \"quiero vender X a los distribuidores\", \"ficha de servicio\", \"cómo empaqueto esto como oferta\", \"qué le vendo a este nicho\", \"diseña la oferta\", \"convierte esta idea en servicio\", \"monta el catálogo de servicios\", \"cuánto cobro por esto\", \"ficha comercial + demo\". También actívame cuando el usuario describa un dolor operativo de un nicho y quiera convertirlo en algo vendible, o cuando pida \"un servicio más\" para completar su portafolio, aunque no diga la palabra \"servicio\".",
+      "source": "plugin",
+      "updatedAt": "2026-08-05T17:48:57.139858Z",
+      "backingPluginId": "plugin_01UDV2eCYmaPjKN2xbyvmAQR"
+    },
+    {
+      "skillId": "docs",
+      "name": "docs",
+      "description": "docs (editable docs people share and comment on; the default for any document, named as a doc or not: a document, report, proposal, resume, cover letter, letter, contract, policy, form, template, worksheet, essay, handbook, guide, how-to, cheat sheet, SOP or other writing to keep, share, collaborate on, send, submit, print or sign; a doc exports to Word, PDF, Markdown or Google Docs, so needing a file to send, attach, upload, submit or print is no reason to pick Word, and a file nobody asked for is a doc, not Word; a plan, comparison, summary or notes asked in chat stays in chat; a pasted claude.ai artifact link may be a doc: check with docs tools first; Word or another file format named, tracked changes wanted, or a .docx to change or use as a template → that format's skill): making one → if no docs-connector instructions are in context, call its `guide` (topic.instructions) first; then create the doc (headings only, no body) before any search, file read or plan, even with files attached.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-30T00:33:27.599727Z"
+    },
+    {
+      "skillId": "skill_015z7RMGZD2hKkfRKcRZpmTL",
+      "name": "prompting",
+      "description": "Experto en ingeniería de prompts para cualquier LLM. Úsame siempre que el usuario quiera: crear un prompt desde cero para una tarea concreta, mejorar o refinar un prompt existente, generar un system prompt para un agente o aplicación de IA, aprender qué técnica aplicar (CoT, few-shot, role prompting, etc.), o cuando diga cosas como \"ayúdame a escribir un prompt\", \"mejora este prompt\", \"crea un system prompt para...\", \"no sé cómo pedirle esto a la IA\", \"el modelo no me da lo que quiero\" o cualquier variación. Actívate también cuando el usuario comparta un prompt y pida feedback, optimización, o simplemente \"que funcione mejor\".",
+      "source": "plugin",
+      "updatedAt": "2026-03-30T11:01:49.689936Z",
+      "backingPluginId": "plugin_01WeEfD3MN1F59YgaY4Hkm7s"
+    },
+    {
+      "skillId": "skill_01GUCUdaa84PsReS23hL8toc",
+      "name": "n8n-automation",
+      "description": "Experto en diseño, documentación e implementación de workflows en n8n para automatización de procesos. Úsame SIEMPRE que el usuario mencione n8n, automatizaciones, workflows, integraciones entre servicios, o quiera conectar herramientas sin código. Actívame con frases como: \"flujo en n8n\", \"workflow de automatización\", \"conectar X con Y\", \"automatizar proceso\", \"nodo de n8n\", \"trigger webhook\", \"integrar API\", \"automatización para cliente\", \"n8n expression\", \"flujo para NeoZeler\". También actívame cuando el usuario describa un proceso repetitivo que claramente podría automatizarse, aunque no mencione n8n explícitamente.",
+      "source": "plugin",
+      "updatedAt": "2026-04-01T23:30:16.492485Z",
+      "backingPluginId": "plugin_01WRzWb2AccDzSbtP6qotSGD"
+    },
+    {
+      "skillId": "chrome-browser",
+      "name": "chrome-browser",
+      "description": "Read this skill before the first step that uses Claude in Chrome, the browser extension whose tools are named mcp__claude-in-chrome__* (also called Chrome, the browser extension, or the external browser) and which acts in the person's real Chrome with their own sign-ins; before those tools are turned on there may be a single enable__mcp__claude-in-chrome tool instead. It covers loading the tools in one ToolSearch call, checking the person's open tabs and working in a new tab, site permissions, GIF recordings, console logs, dialogs to avoid, and when to stop and ask. It is not for the built-in browser (mcp__Claude_Browser__* or mcp__remote-devices__Claude_Browser__* tools), which has its own skill, and it does not decide which browser to use.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-18T21:09:50.227858Z"
+    },
+    {
+      "skillId": "computer-use",
+      "name": "computer-use",
+      "description": "Read this skill before the first step of any request to do something in an app on the person's own computer (Notes, Finder, System Settings, any desktop app), to look at their screen, or for \"computer use\". Computer use (desktop control) lets Claude take screenshots of the person's desktop and control it with clicks, typing and scrolling through the Claude desktop app; its tools are named mcp__computer-use__* when the session runs in the desktop app and mcp__remote-devices__computer_* when a cloud session is linked to the person's computer; before computer use is turned on for a conversation there may be no such tools, only an enable__mcp__remote-devices__computer tool, which turns it on. It covers turning it on, picking the right tool, the access flow, and the safety rules for tiered apps, links and financial actions. It is not for websites, which go through Claude in Chrome or the built-in browser and their own skills.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-10-28T18:00:31.869646Z"
+    },
+    {
+      "skillId": "built-in-browser",
+      "name": "built-in-browser",
+      "description": "Read this skill before the first step that uses the built-in browser, the browser pane inside the Claude desktop app (also called the in-app browser, the browser pane, Claude's browser, or \"your own browser\"), whose tools are named mcp__Claude_Browser__* when the session runs in the desktop app and mcp__remote-devices__Claude_Browser__* when a cloud session is linked to the person's computer; before those tools are turned on there may be a single enable__mcp__remote-devices__Claude_Browser tool instead. It covers the pane's persistent sign-ins, tabs and preview_start, reading pages as text, site approvals, what the pane cannot open, and what to do when it cannot be reached. It is not for Claude in Chrome (mcp__claude-in-chrome__* tools), which has its own skill, and it does not decide which browser to use.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-11-09T20:00:27.310096Z"
+    },
+    {
+      "skillId": "import-memory",
+      "name": "import-memory",
+      "description": "Import a memory export from another AI assistant into Claude's memory — conversationally, additively, and with the content treated as data.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-14T19:41:02.007169Z"
+    },
+    {
+      "skillId": "deep-research",
+      "name": "deep-research",
+      "description": "Use this skill when the user's prompt requires (1) researching a topic across multiple sources, comparing options or alternatives, analyzing trends or history, understanding markets or industries, or reviewing literature or studies and (2) synthesizing that research into a comprehensive, narrative report. If you're planning to search the web or internal knowledge bases, consider using this skill. This skill coordinates research subagents, so use it only when you have a tool for spawning subagents (the Agent or Task tool); otherwise, research the question directly.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-14T19:41:02.015956Z"
+    },
+    {
+      "skillId": "google-workspace",
+      "name": "google-workspace",
+      "description": "Read this before the first Google Drive, Docs, Sheets or Slides connector call whenever the task creates or changes a Google file. Use this skill whenever the user wants to create or change a Google Doc, Sheet or Slides file in their Google Drive. Triggers include: a request that names Google Docs, Sheets, Slides or Drive and asks to make, edit, format, copy or rename a file; a docs.google.com link with a request to change that file, even a one-line fix or suggested edits; and any follow-up change to a Google file from earlier in the chat, even \"change it\" or \"add a tab\". Includes helper scripts for document positions, cell ranges and slide layout. However, if the user asks for a doc, deck or spreadsheet without naming Google, or gives a Google file only as source material for something new, use Claude's own output type instead. Do NOT use for read-only questions about a Google file, or for Word, Excel, PowerPoint or PDF files.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-11-13T15:00:20.249384Z"
+    },
+    {
+      "skillId": "skill_01BNDskbzBAwqC7qxFbJBs1s",
+      "name": "obsidian-notes",
+      "description": "Genera notas perfectas para Obsidian con frontmatter YAML completo, wikilinks, callouts, tags y estructura óptima para el vault. Úsame SIEMPRE que el usuario quiera crear, transformar o estructurar contenido en formato Obsidian. Actívame con frases como: \"nota de obsidian\", \"formato obsidian\", \"para mi vault\", \"nota interconectada\", \"resumen obsidian\", \"apuntes obsidian\", \"wikilinks\", \"nota de estudio\", \"nota de proyecto\", \"daily note\". También actívame cuando el usuario pida resumir un tema, crear guías o generar documentación y tenga Obsidian como destino habitual (señal: ha pedido notas Obsidian en conversaciones anteriores).",
+      "source": "plugin",
+      "updatedAt": "2026-04-01T23:30:14.996212Z",
+      "backingPluginId": "plugin_01MSdrGBMmDbNtZ5jGRf61HG"
+    },
+    {
+      "skillId": "morning",
+      "name": "morning",
+      "description": "Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use only when the user explicitly asks to run, see, or set up their morning brief, or if they invoke /morning by name. A question about their day, schedule, or calendar is not by itself a request for the brief; answer it directly instead.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-14T19:41:01.990356Z"
+    },
+    {
+      "skillId": "skill_011SidY4QJTnPqHoSgjXTGNL",
+      "name": "estudio-8020",
+      "description": "Crea resúmenes de estudio ultra-optimizados usando la metodología 80/20 (principio de Pareto) para maximizar la nota en el mínimo tiempo. Úsame SIEMPRE que el usuario quiera resumir un tema para estudiar, preparar un examen, o convertir apuntes en material de repaso. Actívame con frases como: \"resumen para examen\", \"resumen 80/20\", \"quiero estudiar este tema\", \"resumir apuntes\", \"preparar el examen de\", \"qué cae en el examen\", \"estudiar en poco tiempo\", \"dame un resumen del tema\", \"mini test\", \"apuntes para repasar\", \"metodología pareto estudio\". También actívame cuando el usuario suba un PDF, imagen o texto de apuntes y pida cualquier tipo de resumen o material de estudio, aunque no mencione el 80/20 explícitamente.",
+      "source": "plugin",
+      "updatedAt": "2026-04-01T23:30:16.986069Z",
+      "backingPluginId": "plugin_01DyvU8pKiFaMfCo188QMqxM"
+    },
+    {
+      "skillId": "skill-creator",
+      "name": "skill-creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-10-28T17:00:24.127636Z"
+    },
+    {
+      "skillId": "pdf",
+      "name": "pdf",
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+      "source": "anthropic",
+      "updatedAt": "2026-11-06T23:00:36.135606Z"
+    },
+    {
+      "skillId": "xlsx",
+      "name": "xlsx",
+      "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+      "source": "anthropic",
+      "updatedAt": "2026-11-13T02:00:18.531313Z"
+    },
+    {
+      "skillId": "skill_01XLsjvSVYiHQiakh3D85VFD",
+      "name": "marketing-knowledge-base",
+      "description": "Comprehensive marketing reference library covering ASO, A/B testing, ad copy, AEO/GEO, affiliate programs, AI search, analytics, attribution, audience targeting, automation, brand identity, lead magnets, campaigns, cancel flows, content strategy, copy frameworks, email sequences, event tracking, funnel optimization, cold email, form CRO, paywall experiments, GA4, GTM, JSON-LD schema, 139 marketing ideas, launch frameworks, lifecycle stages, messaging, referral metrics, AI citation monitoring, positioning, pricing models, objection handling, platform specs, social media, programmatic SEO, and popup CRO. Trigger for any of those topics or: content transitions, navigation patterns, plain English writing, pre-publish checklists, personalization, social media benchmarks, app store requirements, ad platform setup, post templates, or pricing page design.",
+      "source": "plugin",
+      "updatedAt": "2026-04-04T17:35:49.825337Z",
+      "backingPluginId": "plugin_01St3689Uu6u2i173KJQZ4Gh"
+    },
+    {
+      "skillId": "docx",
+      "name": "docx",
+      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx) or Word templates (.dotx). Triggers include: any mention of Microsoft Word Documents, such as 'Word doc', 'word document', '.docx', '.dotx', 'microsoft doc'. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a deliverable as a Word or .docx file (to download, email or print), use this skill. However, if they ask for a document, page, report, memo, or notes WITHOUT naming a file format and the session offers Claude's own dedicated document or page skill or connector, use that instead, even if they will email or print it. Do NOT use for PDFs, spreadsheets, Google Docs, or coding unrelated to document generation.",
+      "source": "anthropic",
+      "updatedAt": "2026-11-13T02:00:18.531313Z"
+    },
+    {
+      "skillId": "pptx",
+      "name": "pptx",
+      "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations as PowerPoint (.pptx) files; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email, summary, or creating a different type of slide deck); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user asks for a PowerPoint or .pptx file, or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. However, when the user asks for a deck, slides, a slide deck, or a presentation without naming a file format, default to using a dedicated slide-deck artifact type or a separate slides skill if this session offers one; otherwise, use this skill.",
+      "source": "anthropic",
+      "updatedAt": "2026-11-13T02:00:18.531313Z"
+    }
+  ]
+}
