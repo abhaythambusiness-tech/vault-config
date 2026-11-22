@@ -26,3 +26,4 @@ Compartido/
 
 # configuración local personal (nunca subir)
 .local/
+.claude/skills/.trash/
