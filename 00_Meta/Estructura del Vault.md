@@ -1,7 +1,7 @@
 ---
 type: meta
 status: activo
-date: 2026-11-06
+date: 2026-11-22
 origen: mixto
 tags: [meta, estructura, mapa]
 ---
@@ -10,9 +10,9 @@ tags: [meta, estructura, mapa]
 
 > [!resumen] En cristiano
 > El vault es una casa con **cinco habitaciones numeradas** (método PARA): `00` es el cuarto de máquinas (plantillas, sesiones, paneles), `01` lo que estás construyendo ahora, `02` lo que mantienes siempre, `03` lo que consultas y `04` el trastero. `99_Assets` guarda los archivos pesados (imágenes, PDFs, modelos). Lo demás (carpetas con punto, `docs/`, `graphify-out/`) es maquinaria de las herramientas: no se toca.
-> Foto del 2026-11-06. Si cambia la estructura, actualizar esta nota (regla §0.5 del `CLAUDE.md`).
+> Foto del 2026-11-22. Si cambia la estructura, actualizar esta nota (regla §0.5 del `CLAUDE.md`).
 
-Ruta física: `/home/haytham/Documentos/vault/` (repo git con auto-push a `Haytham-Vault`). No es repo de código: el código vive en `~/Proyectos/<nombre>/`.
+Ruta física: `/home/haytham/Documentos/vault/` (repo git con auto-push a `usuario-Vault`). No es repo de código: el código vive en `~/Proyectos/<nombre>/`.
 
 ---
 
@@ -35,17 +35,13 @@ vault/
 └── (raíz)             CLAUDE.md, GEMINI.md, .mcp.json + archivos sueltos (ver §9)
 ```
 
-Reglas de oro: no reorganizar PARA ni `99_Assets/`, `docs/`, `graphify-out/`, `taller-bravo/` sin petición explícita (`CLAUDE.md` §0.2). Crear notas dentro: sí.
+Reglas de oro: no reorganizar PARA ni `99_Assets/`, `docs/`, `graphify-out/` sin petición explícita (`CLAUDE.md` §0.2). Crear notas dentro: sí.
 
 ---
 
 ## 2. `00_Inbox/` — entrada
 
 Cosas por clasificar. Se vacía hacia `01`–`04` o `99_Assets/`.
-
-| Elemento | Qué es |
-|---|---|
-| `2026-10-13_1223_preparacion-con-carlos.md` | Preparación de reunión |
 
 ---
 
@@ -59,14 +55,14 @@ Cosas por clasificar. Se vacía hacia `01`–`04` o `99_Assets/`.
 | `Proyectos Pendientes a Futuro.md`, `cosas que hacer.md` | Pendientes |
 | `Convencion Humano-Maquina.md` | Regla `origen: humano\|maquina\|mixto` |
 | `Decision - Estructura del Vault (Debate Multi-Agente).md` | Por qué la estructura PARA actual |
-| `Decision - Reparto de Tiempo NeoZeler vs Dropshipping.md` | Decisión de negocio |
+| `Decision - Reparto de Tiempo vs Dropshipping.md` | Decisión de negocio |
 | `Diseno - …` y `Plan - Sistema de Mejora Continua de Metodologias.md` | Diseño y plan del ciclo Ficha de Investigación → Retro |
 | `API.md` | **Secreto**, ignorado por git. No copiar |
 | `GEMINI.md` | Copia generada del `CLAUDE.md` (no editar a mano) |
-| `Panel/` | Panel ComandAi: `humano/` (solo vía `scripts/panel.py`), `maquina/` (7 archivos regenerables), `README.md` |
-| `Plantillas/` | 10 plantillas: Caso de Éxito, Cliente, Identidad de Proyecto, Onboarding Cliente IA, Propuesta, Proyecto, Servicio IA, Sesión, Nota Estándar, Simulador de WhatsApp |
+| `Panel/` | Panel de configuración: datos humanos, datos máquina, `README.md` |
+| `Plantillas/` | Plantillas: Caso de Éxito, Cliente, Identidad de Proyecto, Onboarding Cliente IA, Propuesta, Proyecto, Servicio IA, Sesión, Nota Estándar |
 | `Plantillas/Proyecto Software/` | Flujo de 6 documentos (`1 - PRD` … `6 - Plan de Implementacion`) + `00 - Flujo de Software`, `01 - Tipos de producto`, `Ficha de Investigacion`, `Retro de Proyecto`, `Paleta de Componentes` |
-| `Sesiones/` | **135 notas** `YYYY-MM-DD - <tema>.md`, de 2026-08-08 a 2026-11-06 |
+| `Sesiones/` | **135 notas** `YYYY-MM-DD - <tema>.md`, de 2026-08-08 a 2026-11-22 |
 
 ---
 
@@ -80,8 +76,7 @@ Patrón: cada proyecto tiene una **ficha** `<Nombre>.md` en la raíz de `01_Proj
 |---|---|---|
 | `Dropshipping/` | 72 | E-commerce. Subcarpetas `00_Fuente` … `11_Plan de Accion` + `Producto/` (ver §4.2) |
 | `Reto-30/` | 43 | App de Factory Training (Haytham y Pedro). 12 notas de negocio + `Software/` con PRD…Plan, borradores legales, prompts de imágenes |
-| `TopLeads/` | 10 | Micro SaaS de leads (Laya Leads convertido) |
-| `NeoZeler Web/` | 10 | Web de la agencia |
+| `TopLeads/` | 10 | Micro SaaS de leads |
 | `Comanda Viva/` | 10 | Menú QR + inventario para restaurantes |
 | `Cauce/` | 9 | SaaS PMBOK |
 | `Scraper Infoproductores/` | 9 | Scraper |
@@ -89,7 +84,6 @@ Patrón: cada proyecto tiene una **ficha** `<Nombre>.md` en la raíz de `01_Proj
 | `Battle Royale/` | 7 | Torneo de estrategias de trading |
 | `ComandAi/` | 7 | Panel / agentes |
 | `Laya Trader/` | 7 | Bot de trading en papel |
-| `Neozeler CRM/` | 7 | Embudo de venta de webs |
 | `Abisal Drill/` | 6 (+`Prompts 3D/`) | Roblox, en pausa |
 | `Scalper Memecoins/` | 6 | **Abandonado** |
 | `Bot de Tendencia/` | 3 | Experimental |
@@ -102,24 +96,26 @@ Patrón: cada proyecto tiene una **ficha** `<Nombre>.md` en la raíz de `01_Proj
 
 ### 4.3 Fichas sueltas (sin carpeta)
 
-`Abisal Drill`, `Barber-DF` (+ `Propuestas de mejora`), `Battle Royale`, `Bot de Tendencia`, `Comanda Viva`, `Dashboard Command AI`, `Embudo Mensualidades Web`, `Flujo de Software`, `Laya Leads`, `Laya Trader`, `Los Apuntes de Liyo`, `NeoFlow AI` (+ `Guion del Pitch`), `Neozeler CRM` (+ `Identidad Visual`), `NeoZeler Mundo`, `NeoZeler Web`, `NM Electroclima`, `RethinkbyIA`, `Roblox - Anomaly Extraction`, `Scalper Memecoins`, `Scraper Infoproductores`, `Starter SaaS`, `Taller-Bravo`, `TopLeads`, `Ultimo en Pie - Sabotaje`, `Voice-to-Vault`.
+`Abisal Drill`, `Barber-DF` (+ `Propuestas de mejora`), `Battle Royale`, `Bot de Tendencia`, `Comanda Viva`, `Dashboard Command AI`, `Embudo Mensualidades Web`, `Flujo de Software`, `Laya Leads`, `Laya Trader`, `Los Apuntes de Liyo`, `NM Electroclima`, `RethinkbyIA`, `Roblox - Anomaly Extraction`, `Scalper Memecoins`, `Scraper Infoproductores`, `Starter SaaS`, `Taller-Bravo`, `TopLeads`, `Ultimo en Pie - Sabotaje`, `Voice-to-Vault`.
 
 ---
 
 ## 5. `02_Areas/` — áreas continuas (43 archivos)
 
-### `NeoZeler/` — la agencia de IA para pymes
+### Área principal
+
 | Subcarpeta | Contenido |
 |---|---|
-| `NeoZeler - MOC.md` | Entrada del área |
-| `Clientes/` | `INGECONS` (ficha, guion de grabación, script demo) |
-| `Implementación IA/` | MOC, metodología de software a medida, sistema de ventas (tablero) |
-| `Lanzamientos/` | 14 notas numeradas (visión, onboarding, webinar, oferta, SLO, captación, anuncios, nutrición, IA externa, informe, prompts, replay, Funnelabs 2.0, conversaciones) + MOC + decisiones abiertas |
-| `Servicios/` | `Servicio - Software de Gestión Operativa a Medida` |
+| `MOC.md` | Entrada del área |
+| `Clientes/` | Fichas de clientes |
+| `Implementación IA/` | Metodología de software a medida, sistema de ventas (tablero) |
+| `Lanzamientos/` | Notas numeradas (visión, onboarding, oferta, SLO, captación, anuncios, nutrición, IA externa, informe, prompts, replay) + MOC + decisiones abiertas |
+| `Servicios/` | Catálogo de servicios |
 | `Marketing/`, `Nichos/` | **Vacías** |
 
-### `Trading con 10 euros/`
-`Trading con 10 euros - MOC.md` + 6 notas numeradas (mercado, lectura de gráficos, patrones, riesgo, playbook/diario, matemática) + `Sistema de Trading/` (`00 - Sistema`, `Dashboard`, `Diario/`, `Plantillas/Plantilla - Trade`, `Playbook/` con Pine 5m, Retroceso al POC, Zona de Demanda).
+### Área secundaria
+
+`Trading con 10 euros/`: `MOC.md` + 6 notas numeradas (mercado, lectura de gráficos, patrones, riesgo, playbook/diario, matemática) + `Sistema de Trading/` (`00 - Sistema`, `Dashboard`, `Diario/`, `Plantillas/Plantilla - Trade`, `Playbook/` con Pine 5m, Retroceso al POC, Zona de Demanda).
 
 ---
 
@@ -130,7 +126,7 @@ Guía de entrada: `README.md`.
 | Tema | Notas |
 |---|---|
 | **Claude Code** | `Sistema Claude Code - Configuracion Completa`, `Ahorro de tokens en Claude Code`, `Guia - Skills vs Agentes`, `Claude Code para SaaS y startups` (3 variantes), `Mejores prácticas webs con Claude Code`, `Awesome Claude Design` |
-| **Metodología de software** | `Catalogo de Componentes`, `Biblioteca de Layouts`, `Biblioteca de Referencias Premium`, `Starter Kits NeoZeler`, `Checklist pre-cobro (micro SaaS)`, `Web Interface Guidelines` |
+| **Metodología de software** | `Catalogo de Componentes`, `Biblioteca de Layouts`, `Biblioteca de Referencias Premium`, `Starter Kits`, `Checklist pre-cobro (micro SaaS)`, `Web Interface Guidelines` |
 | **Registros** | `Registro de Identidades Visuales`, `Registro de Oportunidades`, `Registro de Retros` |
 | **Roblox** | `Guia de Texturas y Materiales PBR`, carpeta `Avatar y Psicologia del Jugador` |
 | **Otros** | GoHighLevel, trading (prompt de investigación), plan de aprendizaje de redes neuronales, hábitos |
@@ -141,7 +137,7 @@ Guía de entrada: `README.md`.
 
 ## 7. `04_Archive/` — trastero (36 archivos)
 
-`README.md` explica el criterio. Contiene `AVAX-RL-Bot`, `crypto-ml-bot`, `goat-trading`, una transcripción duplicada, `Crypto-Copy-Bot/` (spec + checklist de despliegue) y `Memecoin-LSTM/` (roadmap de 17 fases, bot real v7, modelos, auditorías, planes y registros de experimentos).
+`README.md` explica el criterio. Contiene proyectos archivados y históricos.
 
 ---
 
@@ -150,10 +146,10 @@ Guía de entrada: `README.md`.
 | Carpeta | Archivos | Contenido |
 |---|---|---|
 | `reto-30/` | 47 | `carteles/`, `demo-rescatada/`, `imagenes/` |
-| `productos-imagenes/` | 25 | Fotos de producto (`shopify-peine-aplicador/`) |
+| `productos-imagenes/` | 25 | Fotos de producto |
 | `RethinkbyIA/` | 21 | Material de marca |
 | `Abisal Drill/` | 13 | `Backups/`, `Modelos 3D/` |
-| `Documentos/` | 8 | PDFs (p. ej. `NeoFlow-AI-Dossier.pdf`, `NeoFlow-AI-Pitch.pdf`) |
+| `Documentos/` | 8 | PDFs (p. ej. `Nombre-Dossier.pdf`) |
 | `Fuentes/` | 6 | Tipografías |
 | `Imagenes/` | 6 | Imágenes sueltas |
 | `logos/` | 5 | Logotipos |
@@ -166,19 +162,17 @@ Guía de entrada: `README.md`.
 ## 9. Raíz y carpetas técnicas
 
 **No tocar** (maquinaria):
-- `.git/` — repo con auto-push. `.gitignore` excluye `.sync/`, `.stfolder/`, `graphify-out/`, `scripts/logs/`, `00_Meta/API.md` y los datos del plugin Local REST API.
-- `.obsidian/` — ajustes, plugins y `snippets/` (`premium-light-theme.css` es el tema activo; también `premium-dark-theme`, `premium-light-minimal`, `custom-vault-style`, `dataview-cards-and-callouts`, `graph`).
+- `.git/` — repo con auto-push. `.gitignore` excluye datos personales, secretos, `graphify-out/`, `scripts/logs/`, `00_Meta/API.md` y los datos del plugin Local REST API.
+- `.obsidian/` — ajustes, plugins y `snippets/` (tema activo y `dataview-cards-and-callouts`, `graph`).
 - `.claude/` — `ARCHITECTURE_MAP`, `COMMON_MISTAKES`, `QUICK_START`, `AUDIT_VAULT_2026-08-08`, `launch.json`, `settings.local.json`, `completions/`, `sessions/{active,archive}`, `templates/`, `worktrees/`.
-- `.agents/` — reglas y flujos para Gemini/Antigravity: `rules/` (10 reglas), `workflows/graphify.md`, `mcp_config.json`, `skills.json`.
+- `.agents/` — reglas y flujos: `rules/` (10 reglas), `workflows/graphify.md`, `mcp_config.json`, `skills.json`.
 - `.token-optimizer/`, `.stfolder/`, `.trash/`, `graphify-out/` (grafo del vault, regenerable con `graphify update .`).
 - `docs/` — `INDEX.md`, `borrador-config/` (`global/`, `vault/`), `learnings/` y `archive/` (vacías).
 
 **Archivos de control en raíz**: `CLAUDE.md`, `GEMINI.md`, `.mcp.json`, `.claudeignore`, `.graphifyignore`, `.gitignore`, `.diagram-design`.
 
 > [!riesgo] Desorden en la raíz
-> El `CLAUDE.md` dice que la raíz solo debe tener `CLAUDE.md`, `GEMINI.md`, `.mcp.json`, los `.ignore` y las carpetas. El 2026-11-06 se movieron 18 archivos sueltos a `99_Assets/` y se borraron 8 duplicados idénticos. Aparecieron después 15 archivos 3D (`command-totem`, `data-receiver-drone`, `data-vault-diorama`, `layth-ai-node`, `tech-core`; `.glb/.mtl/.obj`) que deberían ir a `99_Assets/` (pendiente).
->
-> `ssh@192.168.0.100mp-crm-test/` (`n8n/`, `src/`, `tests/`), copia de código del CRM sacada por error con un nombre de ruta SSH, se movió el 2026-11-12 a `~/Proyectos/archive/ssh-192.168.0.100mp-crm-test-20261112/`. Ya no está en la raíz.
+> El `CLAUDE.md` dice que la raíz solo debe tener `CLAUDE.md`, `GEMINI.md`, `.mcp.json`, los `.ignore` y las carpetas. Los archivos sueltos se han movido a `99_Assets/` y `docs/`.
 
 ---
 
@@ -187,5 +181,5 @@ Guía de entrada: `README.md`.
 - **Frontmatter**: `type`, `status`, `date`, `origen` (`humano|maquina|mixto`). Notas nuevas siempre con `origen`.
 - **Callouts**: `[!cliente]`, `[!resumen]` («En cristiano» al inicio de toda ficha), `[!riesgo]`.
 - **Proyecto de software**: ficha en `01_Projects/<Nombre>.md` + carpeta con los 6 documentos + `Ficha de Investigacion` y `Retro` + sesión en `00_Meta/Sesiones/`.
-- **MOC por área**: `NeoZeler - MOC`, `Trading con 10 euros - MOC`, `Dropshipping - MOC`, `RETO 30 - MOC`.
+- **MOC por área**: `Área - MOC`.
 - **Herramientas de navegación**: `vault-search` (búsqueda por significado), `graphify` (relaciones), `obsidian-vault` (leer/crear).

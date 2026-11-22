@@ -7,7 +7,13 @@ scripts/logs/
 00_Meta/API.md
 .obsidian/plugins/obsidian-local-rest-api/data.json
 **/Neozeler*
-**/Setter NeoZeler*
+**/Setter\ NeoZeler*
+**/NeoZeler\ CRM*
+**/NeoZeler\ Web*
+**/NeoZeler\ Tools*
+**/NeoZeler\ Mundo*
+**/NeoFlow\ AI*
+**/NeoZeler\ Mundo*
 
 # archivos pesados (auto-push)
 *.zip
@@ -17,3 +23,6 @@ Compartido/
 
 # datos del vault (vectordb, etc.)
 .vectordb-*/
+
+# configuración local personal (nunca subir)
+.local/
