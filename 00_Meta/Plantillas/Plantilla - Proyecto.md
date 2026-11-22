@@ -3,7 +3,6 @@ title: "Proyecto - {{nombre}}"
 date: {{fecha}}
 tags:
   - proyecto
-  - neozeler
   - cliente
 type: proyecto
 origen: mixto
@@ -44,4 +43,3 @@ related:
 ---
 ## 🔗 Relacionado
 - [[Cliente - {{nombre}}]]
-- [[NeoZeler - MOC]]

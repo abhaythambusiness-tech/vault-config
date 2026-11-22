@@ -1,17 +1,52 @@
 ---
-title: "Carpeta de cliente - {{nombre_cliente}}"
-date: {{fecha}}
-type: plantilla
+type: meta
+status: activo
+date: 2026-11-22
 origen: mixto
-status: borrador
+tags: [plantilla, carpeta, cliente]
 ---
 
+# Plantilla - Carpeta de Cliente
+
 > [!resumen] En cristiano
-> Un cliente = una carpeta en `02_Areas/NeoZeler/Clientes/{{nombre_cliente}}/` con cuatro notas. Así el caso de éxito sale solo al cerrar.
+> Estructura de carpetas para organizar la documentación y activos de un cliente en el vault. Sirve como modelo para cualquier cliente nuevo.
 
-Crear estas notas dentro de la carpeta:
+## Estructura recomendada
 
-1. **Brief**: qué pidió, objetivo, presupuesto, plazos.
-2. **Entregable**: qué se entregó, enlaces, fecha.
-3. **Resultado**: números antes/después y una frase del cliente.
-4. **Permiso de caso de éxito**: sí/no/anónimo, fecha y prueba por escrito. Sin permiso no se publica; si sí, pasar a `[[Plantilla - Caso de Éxito]]`.
+```
+02_Areas/
+└── Área del Cliente/
+    ├── Cliente - MOC.md           # Entrada del área (MOC de enlaces)
+    ├── Cliente - Ficha.md          # Ficha principal del cliente
+    ├── Cliente - Onboarding.md     # Registro de onboarding y pasos iniciales
+    ├── Proyecto - <Nombre>.md      # Ficha del proyecto activo (si aplica)
+    └── ...                        # Demos, propuestas, casos de éxito, etc.
+```
+
+## Contenido mínimo en la ficha del cliente
+
+| Campo | Valor |
+|---|---|
+| **Nombre del cliente** | |
+| **Tipo de negocio** | |
+| **Fecha de incorporación** | |
+| **Objetivos principal** | |
+| **Resultado esperado** | |
+| **Estado actual** | |
+
+## Organización de documentos
+
+- **Fichas sueltas** en la raíz de la carpeta del cliente: `Beneficios`, `Contacto`, `Acuerdos`, etc.
+- **Proyectos activos** con su ficha `<Nombre>.md` y carpeta con flujo de 6 documentos.
+- **Demostraciones** y casos de éxito en `99_Assets/` o subcarpetas propias.
+- **Documentos archivados** en `04_Archive/` cuando el proyecto termina.
+
+## Vinculación con el sistema
+
+- Relacionar la ficha del cliente con el `Área - MOC.md` correspondiente.
+- Vincular proyectos del cliente a `03_Resources/` para plantillas reutilizables.
+- Usar `vault-search` para encontrar información del cliente rápidamente.
+
+---
+
+*Plantilla genérica para cualquier cliente. Las referencias a `NeoZeler/Clientes/` y estructura específica han sido removidas a favor de una convención nombrable por el usuario.*

@@ -4,14 +4,12 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 tags:
   - ia
   - automatizacion
-  - neozeler
   - servicio
 type: servicio
 origen: mixto
 status: borrador
 nicho: "[[Nicho - <% tp.system.prompt("Nombre del Nicho (ej: Transporte y logística):") %>]]"
 related:
-  - "[[NeoZeler - MOC]]"
 ---
 
 ## 🎯 Descripción General

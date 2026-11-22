@@ -18,10 +18,10 @@ updated: 2026-09-29
 
 | Ámbito | Proyecto / Área / Cliente | Acceso directo |
 | :--- | :--- | :--- |
-| **Cliente** | 🏗️ INGECONS (Gestión de Obras) | [[02_Areas/NeoZeler/Clientes/INGECONS\|Ficha de Cliente — INGECONS]] |
+| **Cliente** | 🏗️ [Nombre del Cliente] | [[02_Areas/[NOMBRE ÁREA]/Clientes/[NOMBRE]]\|Ficha de Cliente] |
 | **Proyecto** | 🌊 Cauce (PMBOK SaaS) | [[01_Projects/Cauce/Cauce - Master Command Center\|Master Command Center - Cauce]] |
 | **Proyecto** | 📦 Dropshipping | [[01_Projects/Dropshipping/Dropshipping - MOC\|MOC - Dropshipping]] |
-| **Área** | ⚡ NeoZeler (Agencia de implantación de IA) | [[02_Areas/NeoZeler/NeoZeler - MOC\|NeoZeler - MOC]] |
+| **Área** | 📁 [Nombre del Área] | [[02_Areas/[NOMBRE ÁREA] - MOC\|Área - MOC]] |
 
 | Sección | Acceso directo |
 | :--- | :--- |

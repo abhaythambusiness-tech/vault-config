@@ -3,7 +3,6 @@ title: "Cliente - {{nombre}}"
 date: {{fecha}}
 tags:
   - cliente
-  - neozeler
   - "{{sector}}"
 type: referencia
 origen: mixto
@@ -12,7 +11,6 @@ sector: "{{sector}}"
 estado: activo
 fase: "{{fase_actual}}"
 related:
-  - "[[NeoZeler - MOC]]"
   - "[[Propuesta - {{nombre}}]]"
   - "[[Onboarding - {{nombre}}]]"
 ---
@@ -52,5 +50,4 @@ Breve descripción del sistema que usa este cliente (agente, canal, integracione
 - [ ] {{proximo_paso_2}}
 
 ---
-## 🔗 Relacionado
-- [[NeoZeler - MOC]]
+

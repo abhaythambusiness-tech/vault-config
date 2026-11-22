@@ -48,6 +48,6 @@ journalctl --user -u ram-limpia.service -n 20   # qué cerró el timer
 
 ## Relacionado
 
-- [[NeoZeler Tools]] · herramientas transversales en `~/Proyectos/flujo-software/tools/`
+- Herramientas transversales en `~/Proyectos/flujo-software/tools/`
 - Regla de scripts repetibles: `CLAUDE.md` del vault §0.12
 

@@ -15,7 +15,7 @@ origen: mixto
 ## Librerías
 | Necesidad | Candidata A | Candidata B | Elegida y motivo | Fuente |
 |---|---|---|---|---|
-| 3D en navegador | Three.js | react-three-fiber | **Three.js 0.170**: sin React, un solo bundle pequeño | `[[NeoZeler Mundo]]` |
+| 3D en navegador | Three.js | react-three-fiber | **Three.js 0.170**: sin React, un solo bundle pequeño | `[[Mundo 3D]]` |
 | Compilar | Vite | esbuild a mano | **Vite 5 + TypeScript**: stack estándar de `rules/web.md` | rules/web.md |
 | Servidor | Node `http` + `ws` | Express / Bun | **Node `http` + `ws` 8.18**: un proceso, dos dependencias | package.json |
 | Etiquetas sobre el 3D | CSS2DRenderer | sprites de textura | **CSS2DRenderer**: texto real, accesible y clicable | three/examples |

@@ -14,7 +14,7 @@ origen: mixto
 - Documentos: [[1 - PRD]] · [[2 - TRD]] · [[3 - UI-UX Design]] · [[Ficha de Investigacion]] · [[6 - Plan de Implementacion]] (AppFlow y Schema no-aplica).
 - Stack: Go + SQLite (`modernc.org/sqlite`) + WebView Android con Alpine/Tailwind; `gomobile bind`.
 - Identidad: «tablero de Go» (jade sobre obsidiana cálida), ver [[Registro de Identidades Visuales]].
-- Relacionado: [[NeoZeler HQ]] (mandala 9×9 de equipo, web).
+- Relacionado: [[Mandalá 9×9 de equipo, web]] (uso interno de plantillas).
 
 ```mermaid
 flowchart LR
